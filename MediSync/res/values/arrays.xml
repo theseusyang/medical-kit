@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The following array list will encapsulate all fragment views of the items in the drawer layout list -->
+    <string-array name="nav_classes">
+        <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
+        <item>com.sorin.medisync.pulse.PulseFragment</item>
+        <item>com.sorin.medisync.adapters.ViewPagerFragment3</item>
+        <item>com.sorin.medisync.adapters.ViewPagerFragment4</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
+        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterStringFragment</item>
+        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterObjectFragment</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
+        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
+        <item>com.sorin.medisync.pulse.PulseFragment</item>
+        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterObjectFragment</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
+        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterStringFragment</item>
+        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterObjectFragment</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
+        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
+    </string-array>
+
+    <!-- The following array list will encapsulate all names of the items in the listview -->
+    <string-array name="all_list_item_titles">
+        <item>MediSync</item>
+        <item>Patient profile</item>
+        <item>Hospital staff</item>
+        <item>Imagery</item>
+        <item>Lab results</item>
+        <item>Medical supplies</item>
+        <item>Hospital forms</item>
+        <item>Prescriptions</item>
+        <item>Illness index</item>
+        <item>Drugs index</item>
+        <item>Hospital map</item>
+        <item>Tools</item>
+        <item>ECG</item>
+        <item>Pulse</item>
+        <item>Endoscope</item>
+        <item>Blood pressure</item>
+        <item>Temperature</item>
+        <item>Radiation levels</item>
+        <item>Activity recognition</item>
+        <item>Emergency</item>
+        <item>Call ambulance</item>
+        <item>Call Helicopter</item>
+        <item>Call nurse</item>
+        <item>Call doctor</item>
+    </string-array>
+
+    <!-- List views -->
+    <string-array name="menu_data">
+        <item>menu_data_patient_profile</item>
+        <item>menu_data_hospital_staff</item>
+        <item>menu_data_xray_results</item>
+        <item>menu_data_lab_results</item>
+        <item>menu_data_medical_supplies_index</item>
+        <item>menu_data_hospital_forms_index</item>
+        <item>menu_data_prescriptions_index</item>
+        <item>menu_data_illness_index</item>
+        <item>menu_data_drugs_index</item>
+        <item>menu_data_hospital_interactive_map</item>
+    </string-array>
+    <string-array name="menu_tools">
+        <item>menu_tools_ecg</item>
+        <item>menu_tools_pulse</item>
+        <item>menu_tools_microscope_feed</item>
+        <item>menu_tools_blood_pressure</item>
+        <item>menu_tools_temperature</item>
+        <item>menu_tools_radiation_levels</item>
+        <item>menu_tools_movement_log</item>
+    </string-array>
+    <string-array name="menu_emergency">
+        <item>menu_emergency_call_ambulance</item>
+        <item>menu_emergency_call_helicopter</item>
+        <item>menu_emergency_call_nurse</item>
+        <item>menu_emergency_call_doctor</item>
+    </string-array>
+
+    <array name="data_menu_icons">
+        <item>ic_patient_profile</item>
+        <item>ic_hospital_staff</item>
+        <item>ic_xray_results</item>
+        <item>ic_lab_results</item>
+        <item>ic_medical_supplies_index</item>
+        <item>ic_hospital_forms_index</item>
+        <item>ic_prescription_index</item>
+        <item>ic_illness_index</item>
+        <item>ic_drugs_index</item>
+        <item>ic_hospital_interactive_map</item>
+    </array>
+    <array name="tools_menu_icons">
+        <item>ic_ecg</item>
+        <item>ic_pulse</item>
+        <item>ic_microscope_feed</item>
+        <item>ic_blood_pressure</item>
+        <item>ic_body_temperature</item>
+        <item>ic_radiation_levels</item>
+        <item>ic_movement_logger</item>
+    </array>
+    <array name="emergency_menu_icons">
+        <item>ic_call_ambulance</item>
+        <item>ic_call_helicopter</item>
+        <item>ic_call_nurse</item>
+        <item>ic_call_doctor</item>
+    </array>
+    <array name="imagery_icons">
+        <item>xray_chest</item>
+        <item>xray_foot</item>
+        <item>xray_linux</item>
+        <item>xray_skull</item>
+    </array>
+
+</resources>
