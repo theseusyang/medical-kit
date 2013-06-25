@@ -1,6 +1,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
+        android:id="@+id/action_print"
+        android:icon="@drawable/print"
+        android:showAsAction="always"
+        android:title="Print"/>
+    <item
         android:id="@+id/action_map"
         android:icon="@drawable/action_map"
         android:showAsAction="always"
@@ -18,12 +23,12 @@
     <item
         android:id="@+id/action_filepicker_save"
         android:icon="@drawable/action_filepicker_save"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         android:title="@string/action_save_image"/>
     <item
         android:id="@+id/action_filepicker_view"
         android:icon="@android:drawable/ic_menu_view"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         android:title="@string/action_view_image"/>
     <item
         android:id="@+id/action_settings"
@@ -34,13 +39,13 @@
             <item
                 android:id="@+id/action_websearch"
                 android:icon="@drawable/action_search"
-                android:showAsAction="always"
+                android:showAsAction="ifRoom"
                 android:title="@string/action_search_database"/>
             <item
                 android:id="@+id/action_save"
                 android:icon="@drawable/ic_save"
                 android:orderInCategory="100"
-                android:showAsAction="always"
+                android:showAsAction="ifRoom"
                 android:title="@string/action_save"/>
         </menu>
     </item>

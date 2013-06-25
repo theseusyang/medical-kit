@@ -32,9 +32,12 @@ import com.sorin.medisync.data.ListViewItemModel;
 import com.sorin.medisync.filepickerio.FilepickerSaver;
 import com.sorin.medisync.filepickerio.FilepickerViewer;
 import com.sorin.medisync.map.InfoMapActivity;
-import com.sorin.medisync.qr.IntentIntegrator;
+import com.sorin.medisync.qr.IntentIntegratorQR;
 
 public class MainActivity extends FragmentActivity {
+
+	// print intent
+	private static final String CALCULATOR_PACKAGE_NAME = "com.google.android.apps.cloudprint";
 	private int selection = 0;
 	private int oldSelection = -1;
 	// list view arrays
@@ -274,11 +277,25 @@ public class MainActivity extends FragmentActivity {
 		// Handle action buttons
 		switch (item.getItemId()) {
 
+		case R.id.action_print:
+
+			try {
+				Intent LaunchIntent = getPackageManager()
+						.getLaunchIntentForPackage(
+								"com.google.android.apps.cloudprint");
+				startActivity(LaunchIntent);
+			} catch (Exception e) {
+				Toast.makeText(
+						this,
+						"App not installed.Please install app from google store.",
+						Toast.LENGTH_SHORT).show();
+			}
+			return true;
 		case R.id.action_qrscan:
 
-			IntentIntegrator integrator = new IntentIntegrator(
+			IntentIntegratorQR integratorQR = new IntentIntegratorQR(
 					MainActivity.this);
-			integrator.initiateScan();
+			integratorQR.initiateScan();
 
 			Toast.makeText(this, "Scan Qr Code", Toast.LENGTH_SHORT).show();
 			return true;

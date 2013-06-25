@@ -43,6 +43,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
@@ -58,7 +59,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.sorin.medisync.R;
 import com.sorin.medisync.filepickerio.FilepickerSaver;
 import com.sorin.medisync.filepickerio.FilepickerViewer;
-import com.sorin.medisync.qr.IntentIntegrator;
+import com.sorin.medisync.qr.IntentIntegratorQR;
 
 /**
  * This the app's main Activity. It provides buttons for requesting the various
@@ -109,7 +110,7 @@ public class InfoMapActivity extends FragmentActivity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.map_info);
 
 		// Get handles to the UI view objects
 		mLatLng = (TextView) findViewById(R.id.lat_lng);
@@ -154,6 +155,8 @@ public class InfoMapActivity extends FragmentActivity implements
 		map = mapFragment.getMap();
 
 		map.setMyLocationEnabled(true);
+		map.setIndoorEnabled(true);
+
 	}
 
 	/*
@@ -331,6 +334,7 @@ public class InfoMapActivity extends FragmentActivity implements
 
 			// Display the current location in the UI
 			mLatLng.setText(LocationUtils.getLatLng(this, currentLocation));
+
 		}
 	}
 
@@ -370,35 +374,40 @@ public class InfoMapActivity extends FragmentActivity implements
 		}
 	}
 
-	/**
-	 * Invoked by the "Start Updates" button Sends a request to start location
-	 * updates
-	 * 
-	 * @param v
-	 *            The view object associated with this method, in this case a
-	 *            Button.
-	 */
-	public void startUpdates(View v) {
-		mUpdatesRequested = true;
+	// toggle between update location states
+	public void onToggleClicked(View view) {
+		// Is the toggle on?
+		boolean on = ((ToggleButton) view).isChecked();
 
-		if (servicesConnected()) {
-			startPeriodicUpdates();
-		}
-	}
+		if (on) {
+			/**
+			 * Invoked by the "Start Updates" button Sends a request to start
+			 * location updates
+			 * 
+			 * @param v
+			 *            The view object associated with this method, in this
+			 *            case a Button.
+			 */
+			// Enable location updates
+			mUpdatesRequested = true;
+			if (servicesConnected()) {
+				startPeriodicUpdates();
+			}
+		} else {
+			/**
+			 * Invoked by the "Stop Updates" button Sends a request to remove
+			 * location updates request them.
+			 * 
+			 * @param v
+			 *            The view object associated with this method, in this
+			 *            case a Button.
+			 */
+			// Disable location updates
+			mUpdatesRequested = false;
 
-	/**
-	 * Invoked by the "Stop Updates" button Sends a request to remove location
-	 * updates request them.
-	 * 
-	 * @param v
-	 *            The view object associated with this method, in this case a
-	 *            Button.
-	 */
-	public void stopUpdates(View v) {
-		mUpdatesRequested = false;
-
-		if (servicesConnected()) {
-			stopPeriodicUpdates();
+			if (servicesConnected()) {
+				stopPeriodicUpdates();
+			}
 		}
 	}
 
@@ -413,12 +422,7 @@ public class InfoMapActivity extends FragmentActivity implements
 
 		if (mUpdatesRequested) {
 			startPeriodicUpdates();
-			Location location = mLocationClient.getLastLocation();
-			LatLng latLng = new LatLng(location.getLatitude(),
-					location.getLongitude());
-			CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(
-					latLng, 17);
-			map.animateCamera(cameraUpdate);
+
 		}
 	}
 
@@ -478,9 +482,16 @@ public class InfoMapActivity extends FragmentActivity implements
 
 		// Report to the UI that the location was updated
 		mConnectionStatus.setText(R.string.location_updated);
+		// updates location and camera position based on start location update
 
+		Location locationChanged = mLocationClient.getLastLocation();
+		LatLng latLng = new LatLng(locationChanged.getLatitude(),
+				locationChanged.getLongitude());
+		CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng,
+				16);
+		map.animateCamera(cameraUpdate);
 		// In the UI, set the latitude and longitude to the value received
-		mLatLng.setText(LocationUtils.getLatLng(this, location));
+		mLatLng.setText(LocationUtils.getLatLng(this, locationChanged));
 	}
 
 	/**
@@ -708,7 +719,7 @@ public class InfoMapActivity extends FragmentActivity implements
 
 		case R.id.action_get_location:
 
-			IntentIntegrator integrator = new IntentIntegrator(
+			IntentIntegratorQR integrator = new IntentIntegratorQR(
 					InfoMapActivity.this);
 			integrator.initiateScan();
 

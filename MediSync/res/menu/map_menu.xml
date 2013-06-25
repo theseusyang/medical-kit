@@ -3,22 +3,22 @@
     <item
         android:id="@+id/action_get_location"
         android:icon="@drawable/action_get_location"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         android:title="Get location"/>
     <item
         android:id="@+id/action_get_address"
         android:icon="@drawable/action_get_address"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         android:title="Get Address"/>
     <item
         android:id="@+id/action_start_update"
         android:icon="@drawable/action_start_update"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         android:title="Start location update"/>
     <item
         android:id="@+id/action_stop_update"
         android:icon="@drawable/action_stop_update"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         android:title="Stop location update"/>
     <item
         android:id="@+id/action_settings"
@@ -26,17 +26,6 @@
         android:showAsAction="never"
         android:title="@string/action_settings">
         <menu>
-            <item
-                android:id="@+id/action_websearch"
-                android:icon="@drawable/action_search"
-                android:showAsAction="always"
-                android:title="@string/action_search_database"/>
-            <item
-                android:id="@+id/action_save"
-                android:icon="@drawable/ic_save"
-                android:orderInCategory="100"
-                android:showAsAction="always"
-                android:title="@string/action_save"/>
         </menu>
     </item>
 

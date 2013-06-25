@@ -23,7 +23,7 @@ import android.content.Intent;
  * 
  * @author Lachezar Dobrev
  */
-public final class IntentIntegratorSupportV4 extends IntentIntegrator {
+public final class IntentIntegratorSupportV4 extends IntentIntegratorQR {
 
 	private final Fragment fragment;
 
