@@ -287,8 +287,9 @@ public class MainActivity extends FragmentActivity {
 			} catch (Exception e) {
 				Toast.makeText(
 						this,
-						"App not installed.Please install app from google store.",
-						Toast.LENGTH_SHORT).show();
+						"Google Cloud Print not installed.\nPlease install "
+								+ "Cloud Print" + " from Google Play Store.",
+						Toast.LENGTH_LONG).show();
 			}
 			return true;
 		case R.id.action_qrscan:

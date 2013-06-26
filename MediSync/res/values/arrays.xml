@@ -4,6 +4,7 @@
     <!-- The following array list will encapsulate all fragment views of the items in the drawer layout list -->
     <string-array name="nav_classes">
         <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
+        <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
         <item>com.sorin.medisync.pulse.PulseFragment</item>
         <item>com.sorin.medisync.adapters.ViewPagerFragment3</item>
         <item>com.sorin.medisync.adapters.ViewPagerFragment4</item>
@@ -50,6 +51,7 @@
         <item>Blood pressure</item>
         <item>Temperature</item>
         <item>Radiation levels</item>
+        <item>Biohazard alerts</item>
         <item>Activity recognition</item>
         <item>Emergency</item>
         <item>Call ambulance</item>
@@ -78,6 +80,7 @@
         <item>menu_tools_blood_pressure</item>
         <item>menu_tools_temperature</item>
         <item>menu_tools_radiation_levels</item>
+        <item>menu_tools_biohazard_alerts</item>
         <item>menu_tools_movement_log</item>
     </string-array>
     <string-array name="menu_emergency">
@@ -106,6 +109,7 @@
         <item>ic_blood_pressure</item>
         <item>ic_body_temperature</item>
         <item>ic_radiation_levels</item>
+        <item>ic_biohazard_alerts</item>
         <item>ic_movement_logger</item>
     </array>
     <array name="emergency_menu_icons">

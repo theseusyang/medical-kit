@@ -31,6 +31,7 @@
     <string name="menu_tools_blood_pressure">Blood pressure</string>
     <string name="menu_tools_temperature">Body Temperature</string>
     <string name="menu_tools_radiation_levels">Radiation levels</string>
+    <string name="menu_tools_biohazard_alerts">Biohazard alerts</string>
     <string name="menu_tools_movement_log">Movement logger</string>
 
     <!-- emergency menu -->

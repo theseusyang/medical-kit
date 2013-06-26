@@ -291,7 +291,7 @@ containing a value of this type.
         public static final int ic_action_settings=0x7f02003f;
         public static final int ic_add_data=0x7f020040;
         public static final int ic_analysis_kit=0x7f020041;
-        public static final int ic_biohazard_sensor=0x7f020042;
+        public static final int ic_biohazard_alerts=0x7f020042;
         public static final int ic_blood_pressure=0x7f020043;
         public static final int ic_blood_tests=0x7f020044;
         public static final int ic_body_temperature=0x7f020045;
@@ -459,88 +459,74 @@ containing a value of this type.
         public static final int map_menu=0x7f0b0003;
     }
     public static final class string {
-        public static final int IO_Exception_getFromLocation=0x7f060075;
+        public static final int IO_Exception_getFromLocation=0x7f060076;
         public static final int action_add=0x7f06002b;
         /**  drawable list string naming stop 
  action buttons 
          */
-        public static final int action_save=0x7f060048;
-        public static final int action_save_image=0x7f06004a;
-        public static final int action_scan_qr_code=0x7f06004d;
-        public static final int action_search_database=0x7f06004c;
+        public static final int action_save=0x7f060049;
+        public static final int action_save_image=0x7f06004b;
+        public static final int action_scan_qr_code=0x7f06004e;
+        public static final int action_search_database=0x7f06004d;
         /**  Menu title 
          */
-        public static final int action_settings=0x7f060049;
-        public static final int action_view_image=0x7f06004b;
-        public static final int address=0x7f06006c;
+        public static final int action_settings=0x7f06004a;
+        public static final int action_view_image=0x7f06004c;
+        public static final int address=0x7f06006d;
         /**  User interface labels and strings 
  Address format 
          */
-        public static final int address_output_string=0x7f060069;
+        public static final int address_output_string=0x7f06006a;
         /**  map related  stuff 
          */
-        public static final int app_description=0x7f060068;
+        public static final int app_description=0x7f060069;
         public static final int app_name=0x7f060000;
         public static final int app_start=0x7f06002f;
-        /**  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=70] 
+        /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=70] 
          */
         public static final int auth_client_availability_notification_title=0x7f060014;
-        /**  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
+        /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
          */
         public static final int auth_client_play_services_err_notification_msg=0x7f060015;
-        /**  Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
+        /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
          */
         public static final int auth_client_requested_by_msg=0x7f060016;
-        public static final int bt_enabled=0x7f060052;
-        public static final int bt_not_available=0x7f060051;
-        public static final int bt_not_enabled_leaving=0x7f060053;
-        public static final int button_scan=0x7f060062;
-        public static final int button_send=0x7f060050;
+        public static final int bt_enabled=0x7f060053;
+        public static final int bt_not_available=0x7f060052;
+        public static final int bt_not_enabled_leaving=0x7f060054;
+        public static final int button_scan=0x7f060063;
+        public static final int button_send=0x7f060051;
         public static final int close=0x7f06002d;
-        /** 
-         Button in confirmation dialog to enable Google Play services.  Clicking it
+        /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
-        can enable it [CHAR LIMIT=40]
-    
+        can enable it [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_enable_button=0x7f06000b;
-        /** 
-         Message in confirmation dialog informing user they need to enable
-        Google Play services in application settings [CHAR LIMIT=NONE]
-    
+        /**  Message in confirmation dialog informing user they need to enable
+        Google Play services in application settings [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_enable_text=0x7f06000a;
-        /** 
-         Title of confirmation dialog informing user they need to enable
-        Google Play services in application settings [CHAR LIMIT=40]
-    
+        /**  Title of confirmation dialog informing user they need to enable
+        Google Play services in application settings [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_enable_title=0x7f060009;
         /**  Button in confirmation dialog for installing Google Play services [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_install_button=0x7f060008;
-        /** 
-         (For phones) Message in confirmation dialog informing user that
-        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE]
-    
+        /**  (For phones) Message in confirmation dialog informing user that
+        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_install_text_phone=0x7f060006;
-        /** 
-         (For tablets) Message in confirmation dialog informing user that
-        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE]
-    
+        /**  (For tablets) Message in confirmation dialog informing user that
+        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_install_text_tablet=0x7f060007;
-        /** 
-         Title of confirmation dialog informing user that they need to install
-        Google Play services (from Play Store) [CHAR LIMIT=40]
-    
+        /**  Title of confirmation dialog informing user that they need to install
+        Google Play services (from Play Store) [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_install_title=0x7f060005;
-        /** 
-         Message in confirmation dialog informing user there is an unknown issue in Google Play
-        services [CHAR LIMIT=NONE]
-    
+        /**  Message in confirmation dialog informing user there is an unknown issue in Google Play
+        services [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_unknown_issue=0x7f06000e;
         /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
@@ -552,16 +538,12 @@ containing a value of this type.
         /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_update_button=0x7f060011;
-        /** 
-         Message in confirmation dialog informing user that they need to update
-        Google Play services (from Play Store) [CHAR LIMIT=NONE]
-    
+        /**  Message in confirmation dialog informing user that they need to update
+        Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_update_text=0x7f06000d;
-        /** 
-         Title of confirmation dialog informing user that they need to update
-        Google Play services (from Play Store) [CHAR LIMIT=40]
-    
+        /**  Title of confirmation dialog informing user that they need to update
+        Google Play services (from Play Store) [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_update_title=0x7f06000c;
         /**  Sign-in button text [CHAR LIMIT=15] 
@@ -570,16 +552,16 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f060013;
-        public static final int connect=0x7f060054;
+        public static final int connect=0x7f060055;
         /**  Messages 
          */
-        public static final int connected=0x7f060056;
-        public static final int connecting=0x7f060055;
+        public static final int connected=0x7f060057;
+        public static final int connecting=0x7f060056;
         /**  Options Menu 
          */
-        public static final int connection=0x7f060058;
+        public static final int connection=0x7f060059;
         public static final int connection_error_code=0x7f06001a;
-        public static final int connection_error_code_unknown=0x7f06006d;
+        public static final int connection_error_code_unknown=0x7f06006e;
         public static final int connection_error_disabled=0x7f06001b;
         public static final int connection_error_internal=0x7f06001c;
         public static final int connection_error_invalid=0x7f06001d;
@@ -593,46 +575,50 @@ containing a value of this type.
         public static final int connection_error_outdated=0x7f060025;
         public static final int connection_error_sign_in_required=0x7f060026;
         public static final int connection_error_unknown=0x7f060027;
-        public static final int connection_failed=0x7f06006e;
-        public static final int disconnect=0x7f06005a;
-        public static final int disconnected=0x7f06006f;
-        public static final int discoverable=0x7f06005b;
-        public static final int dummy_button=0x7f060066;
-        public static final int dummy_content=0x7f060067;
-        public static final int edittext_hint=0x7f06004f;
+        public static final int connection_failed=0x7f06006f;
+        public static final int disconnect=0x7f06005b;
+        public static final int disconnected=0x7f060070;
+        public static final int discoverable=0x7f06005c;
+        public static final int dummy_button=0x7f060067;
+        public static final int dummy_content=0x7f060068;
+        public static final int edittext_hint=0x7f060050;
         public static final int empty=0x7f060029;
         public static final int file_picker_animation_duration=0x7f060004;
-        public static final int get_address=0x7f060070;
-        public static final int get_location=0x7f060071;
+        public static final int get_address=0x7f060071;
+        public static final int get_location=0x7f060072;
         /**  BluetoothChat 
          */
-        public static final int hello=0x7f06004e;
-        public static final int hello_blank_fragment=0x7f060063;
+        public static final int hello=0x7f06004f;
+        public static final int hello_blank_fragment=0x7f060064;
         public static final int hello_world=0x7f060028;
-        public static final int illegal_argument_exception=0x7f060072;
+        public static final int illegal_argument_exception=0x7f060073;
         public static final int image_base_url=0x7f06002a;
-        public static final int invalid_action=0x7f060073;
-        public static final int invalid_integer_id=0x7f060074;
+        public static final int invalid_action=0x7f060074;
+        public static final int invalid_integer_id=0x7f060075;
         /**  Latitude, longitude format 
          */
-        public static final int latitude_longitude=0x7f06006a;
+        public static final int latitude_longitude=0x7f06006b;
         /**  Labels 
          */
-        public static final int latlng=0x7f06006b;
+        public static final int latlng=0x7f06006c;
         /**  Location client code resources (prefix with location_client) 
-         Begin strings for location.reporting 
-         Some InactiveReason names.  See more in OneUp/package/location/res/values/strings.xml 
+
+        Begin strings for location.reporting
+    
+
+        Some InactiveReason names.  See more in OneUp/package/location/res/values/strings.xml
+    
          */
         public static final int location_client_ulr_inactive_age_under_13=0x7f060017;
         public static final int location_client_ulr_inactive_age_unknown=0x7f060018;
         public static final int location_client_ulr_inactive_unknown_restriction=0x7f060019;
-        public static final int location_requested=0x7f060076;
-        public static final int location_update_error=0x7f060078;
-        public static final int location_update_error_detail=0x7f060079;
-        public static final int location_update_missing_update=0x7f06007a;
-        public static final int location_updated=0x7f060077;
-        public static final int location_updates_stopped=0x7f06007b;
-        public static final int log_new_location=0x7f06007c;
+        public static final int location_requested=0x7f060077;
+        public static final int location_update_error=0x7f060079;
+        public static final int location_update_error_detail=0x7f06007a;
+        public static final int location_update_missing_update=0x7f06007b;
+        public static final int location_updated=0x7f060078;
+        public static final int location_updates_stopped=0x7f06007c;
+        public static final int log_new_location=0x7f06007d;
         /**  data menu 
          */
         public static final int menu_data=0x7f060030;
@@ -648,51 +634,52 @@ containing a value of this type.
         public static final int menu_data_xray_results=0x7f060033;
         /**  emergency menu 
          */
-        public static final int menu_emergency=0x7f060043;
-        public static final int menu_emergency_call_ambulance=0x7f060044;
-        public static final int menu_emergency_call_doctor=0x7f060047;
-        public static final int menu_emergency_call_helicopter=0x7f060045;
-        public static final int menu_emergency_call_nurse=0x7f060046;
+        public static final int menu_emergency=0x7f060044;
+        public static final int menu_emergency_call_ambulance=0x7f060045;
+        public static final int menu_emergency_call_doctor=0x7f060048;
+        public static final int menu_emergency_call_helicopter=0x7f060046;
+        public static final int menu_emergency_call_nurse=0x7f060047;
         public static final int menu_settings=0x7f060001;
         /**  tools menu 
          */
         public static final int menu_tools=0x7f06003b;
+        public static final int menu_tools_biohazard_alerts=0x7f060042;
         public static final int menu_tools_blood_pressure=0x7f06003f;
         public static final int menu_tools_ecg=0x7f06003c;
         public static final int menu_tools_microscope_feed=0x7f06003e;
-        public static final int menu_tools_movement_log=0x7f060042;
+        public static final int menu_tools_movement_log=0x7f060043;
         public static final int menu_tools_pulse=0x7f06003d;
         public static final int menu_tools_radiation_levels=0x7f060041;
         public static final int menu_tools_temperature=0x7f060040;
-        public static final int no_address_found=0x7f06007d;
-        public static final int no_connection=0x7f06007e;
-        public static final int no_geocoder_available=0x7f06007f;
-        public static final int no_location_available=0x7f060080;
-        public static final int no_resolution=0x7f060082;
-        public static final int none_found=0x7f06005f;
-        public static final int none_paired=0x7f06005e;
-        public static final int not_connected=0x7f060057;
+        public static final int no_address_found=0x7f06007e;
+        public static final int no_connection=0x7f06007f;
+        public static final int no_geocoder_available=0x7f060080;
+        public static final int no_location_available=0x7f060081;
+        public static final int no_resolution=0x7f060083;
+        public static final int none_found=0x7f060060;
+        public static final int none_paired=0x7f06005f;
+        public static final int not_connected=0x7f060058;
         public static final int open=0x7f06002c;
-        public static final int periodic_update_stop=0x7f060083;
-        public static final int play_services_available=0x7f060084;
-        public static final int pulse_measurement=0x7f060064;
-        public static final int request_location_updates_in_progress=0x7f060085;
-        public static final int resolved=0x7f060081;
-        public static final int scan_connect=0x7f060059;
+        public static final int periodic_update_stop=0x7f060084;
+        public static final int play_services_available=0x7f060085;
+        public static final int pulse_measurement=0x7f060065;
+        public static final int request_location_updates_in_progress=0x7f060086;
+        public static final int resolved=0x7f060082;
+        public static final int scan_connect=0x7f06005a;
         /**  DeviceListActivity 
          */
-        public static final int scanning=0x7f06005c;
-        public static final int select_device=0x7f06005d;
+        public static final int scanning=0x7f06005d;
+        public static final int select_device=0x7f06005e;
         public static final int service_not_available=0x7f06002e;
-        public static final int start_updates=0x7f060086;
-        public static final int stop_updates=0x7f060087;
+        public static final int start_updates=0x7f060087;
+        public static final int stop_updates=0x7f060088;
         public static final int title_activity_file_picker=0x7f060002;
         public static final int title_activity_file_picker_auth=0x7f060003;
-        public static final int title_activity_fullscreen=0x7f060065;
-        public static final int title_other_devices=0x7f060061;
-        public static final int title_paired_devices=0x7f060060;
-        public static final int unknown=0x7f060088;
-        public static final int unknown_activity_request_code=0x7f060089;
+        public static final int title_activity_fullscreen=0x7f060066;
+        public static final int title_other_devices=0x7f060062;
+        public static final int title_paired_devices=0x7f060061;
+        public static final int unknown=0x7f060089;
+        public static final int unknown_activity_request_code=0x7f06008a;
     }
     public static final class style {
         public static final int ActionBar_Solid_Medisync=0x7f070007;
