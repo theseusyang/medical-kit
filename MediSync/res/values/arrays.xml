@@ -16,9 +16,9 @@
         <item>com.sorin.medisync.adapters.ArrayAdapterObjectFragment</item>
         <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
         <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
-        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
         <item>com.sorin.medisync.pulse.PulseFragment</item>
         <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
+        <item>com.sorin.medisync.pulse.PulseFragment</item>
         <item>com.sorin.medisync.adapters.ArrayAdapterObjectFragment</item>
         <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
         <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>

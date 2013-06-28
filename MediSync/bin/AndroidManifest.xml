@@ -83,7 +83,7 @@
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCEoXXQXrFMOhJ6ILfKqNv33cYY3CZ-2No" />
+            android:value="AIzaSyD1S2P186punkfi8w9Pn_G6JcPc8ecG9W4" />
 
         <receiver
             android:name="com.sorin.medisync.ArduinoReceiver"

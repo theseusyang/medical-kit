@@ -8,6 +8,7 @@ import android.content.SharedPreferences.Editor;
 import android.hardware.Camera;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
@@ -36,8 +37,9 @@ import com.sorin.medisync.qr.IntentIntegratorQR;
 
 public class MainActivity extends FragmentActivity {
 
-	// print intent
-	private static final String CALCULATOR_PACKAGE_NAME = "com.google.android.apps.cloudprint";
+	// constant containing package name string
+	private static final String CLOUDPRINT_PACKAGE_NAME = "com.google.android.apps.cloudprint";
+
 	private int selection = 0;
 	private int oldSelection = -1;
 	// list view arrays
@@ -65,6 +67,7 @@ public class MainActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.medisync_main);
+
 		// ShakeDetector initialization
 		mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 		mAccelerometer = mSensorManager
@@ -285,12 +288,17 @@ public class MainActivity extends FragmentActivity {
 								"com.google.android.apps.cloudprint");
 				startActivity(LaunchIntent);
 			} catch (Exception e) {
+				String packageName = CLOUDPRINT_PACKAGE_NAME;
+				Uri uri = Uri.parse("market://details?id=" + packageName);
+				Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+				startActivity(intent);
 				Toast.makeText(
 						this,
 						"Google Cloud Print not installed.\nPlease install "
 								+ "Cloud Print" + " from Google Play Store.",
 						Toast.LENGTH_LONG).show();
 			}
+
 			return true;
 		case R.id.action_qrscan:
 
@@ -304,15 +312,15 @@ public class MainActivity extends FragmentActivity {
 
 			startActivity(new Intent(this, FilepickerSaver.class));
 
-			Toast.makeText(this, "Save data on cloud", Toast.LENGTH_SHORT)
-					.show();
+			Toast.makeText(this, "Save data on cloud services",
+					Toast.LENGTH_SHORT).show();
 			return true;
 		case R.id.action_filepicker_view:
 
 			startActivity(new Intent(this, FilepickerViewer.class));
 
-			Toast.makeText(this, "View data from cloud", Toast.LENGTH_SHORT)
-					.show();
+			Toast.makeText(this, "View data from cloud services",
+					Toast.LENGTH_SHORT).show();
 			return true;
 		case R.id.action_map:
 
