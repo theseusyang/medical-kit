@@ -10,6 +10,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -301,6 +302,11 @@ public class MainActivity extends FragmentActivity {
 
 			return true;
 		case R.id.action_qrscan:
+			// Get instance of Vibrator from current Context
+			Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+
+			// Vibrate for 300 milliseconds
+			v.vibrate(300);
 
 			IntentIntegratorQR integratorQR = new IntentIntegratorQR(
 					MainActivity.this);
