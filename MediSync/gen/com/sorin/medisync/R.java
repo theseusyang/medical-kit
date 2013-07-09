@@ -482,13 +482,13 @@ containing a value of this type.
         public static final int app_description=0x7f060069;
         public static final int app_name=0x7f060000;
         public static final int app_start=0x7f06002f;
-        /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=70] 
+        /**  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=70] 
          */
         public static final int auth_client_availability_notification_title=0x7f060014;
-        /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
+        /**  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
          */
         public static final int auth_client_play_services_err_notification_msg=0x7f060015;
-        /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
+        /**  Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
          */
         public static final int auth_client_requested_by_msg=0x7f060016;
         public static final int bt_enabled=0x7f060053;
@@ -497,36 +497,50 @@ containing a value of this type.
         public static final int button_scan=0x7f060063;
         public static final int button_send=0x7f060051;
         public static final int close=0x7f06002d;
-        /**  Button in confirmation dialog to enable Google Play services.  Clicking it
+        /** 
+         Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
-        can enable it [CHAR LIMIT=40] 
+        can enable it [CHAR LIMIT=40]
+    
          */
         public static final int common_google_play_services_enable_button=0x7f06000b;
-        /**  Message in confirmation dialog informing user they need to enable
-        Google Play services in application settings [CHAR LIMIT=NONE] 
+        /** 
+         Message in confirmation dialog informing user they need to enable
+        Google Play services in application settings [CHAR LIMIT=NONE]
+    
          */
         public static final int common_google_play_services_enable_text=0x7f06000a;
-        /**  Title of confirmation dialog informing user they need to enable
-        Google Play services in application settings [CHAR LIMIT=40] 
+        /** 
+         Title of confirmation dialog informing user they need to enable
+        Google Play services in application settings [CHAR LIMIT=40]
+    
          */
         public static final int common_google_play_services_enable_title=0x7f060009;
         /**  Button in confirmation dialog for installing Google Play services [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_install_button=0x7f060008;
-        /**  (For phones) Message in confirmation dialog informing user that
-        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+        /** 
+         (For phones) Message in confirmation dialog informing user that
+        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE]
+    
          */
         public static final int common_google_play_services_install_text_phone=0x7f060006;
-        /**  (For tablets) Message in confirmation dialog informing user that
-        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+        /** 
+         (For tablets) Message in confirmation dialog informing user that
+        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE]
+    
          */
         public static final int common_google_play_services_install_text_tablet=0x7f060007;
-        /**  Title of confirmation dialog informing user that they need to install
-        Google Play services (from Play Store) [CHAR LIMIT=40] 
+        /** 
+         Title of confirmation dialog informing user that they need to install
+        Google Play services (from Play Store) [CHAR LIMIT=40]
+    
          */
         public static final int common_google_play_services_install_title=0x7f060005;
-        /**  Message in confirmation dialog informing user there is an unknown issue in Google Play
-        services [CHAR LIMIT=NONE] 
+        /** 
+         Message in confirmation dialog informing user there is an unknown issue in Google Play
+        services [CHAR LIMIT=NONE]
+    
          */
         public static final int common_google_play_services_unknown_issue=0x7f06000e;
         /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
@@ -538,12 +552,16 @@ containing a value of this type.
         /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_update_button=0x7f060011;
-        /**  Message in confirmation dialog informing user that they need to update
-        Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+        /** 
+         Message in confirmation dialog informing user that they need to update
+        Google Play services (from Play Store) [CHAR LIMIT=NONE]
+    
          */
         public static final int common_google_play_services_update_text=0x7f06000d;
-        /**  Title of confirmation dialog informing user that they need to update
-        Google Play services (from Play Store) [CHAR LIMIT=40] 
+        /** 
+         Title of confirmation dialog informing user that they need to update
+        Google Play services (from Play Store) [CHAR LIMIT=40]
+    
          */
         public static final int common_google_play_services_update_title=0x7f06000c;
         /**  Sign-in button text [CHAR LIMIT=15] 
@@ -602,12 +620,8 @@ containing a value of this type.
          */
         public static final int latlng=0x7f06006c;
         /**  Location client code resources (prefix with location_client) 
-
-        Begin strings for location.reporting
-    
-
-        Some InactiveReason names.  See more in OneUp/package/location/res/values/strings.xml
-    
+         Begin strings for location.reporting 
+         Some InactiveReason names.  See more in OneUp/package/location/res/values/strings.xml 
          */
         public static final int location_client_ulr_inactive_age_under_13=0x7f060017;
         public static final int location_client_ulr_inactive_age_unknown=0x7f060018;

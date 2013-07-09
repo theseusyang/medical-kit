@@ -77,6 +77,10 @@
         </activity>
 
         <provider
+            android:name="com.sorin.medisync.db.PAtientProfileContentProvider"
+            android:authorities="com.sorin.medisync.db" >
+        </provider>
+        <provider
             android:name="com.sorin.medisync.data.CounterContentProvider"
             android:authorities="com.sorin.medisync"
             android:exported="true" >
