@@ -104,6 +104,7 @@ public class PatientProfileContentProvider extends ContentProvider {
 
 	@Override
 	public int delete(Uri uri, String selection, String[] selectionArgs) {
+
 		int uriType = sURIMatcher.match(uri);
 		SQLiteDatabase sqlDB = database.getWritableDatabase();
 		int rowsDeleted = 0;

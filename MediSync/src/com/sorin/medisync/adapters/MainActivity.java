@@ -28,9 +28,9 @@ import android.widget.Toast;
 
 import com.sorin.medisync.R;
 import com.sorin.medisync.adapters.ShakeDetectorActivity.OnShakeListener;
-import com.sorin.medisync.bt.DeviceListActivity;
 import com.sorin.medisync.data.ListViewAdapter;
 import com.sorin.medisync.data.ListViewItemModel;
+import com.sorin.medisync.db.PatientsProfileDBActivity;
 import com.sorin.medisync.filepickerio.FilepickerSaver;
 import com.sorin.medisync.filepickerio.FilepickerViewer;
 import com.sorin.medisync.map.InfoMapActivity;
@@ -335,7 +335,7 @@ public class MainActivity extends FragmentActivity {
 			return true;
 		case R.id.action_bt:
 
-			startActivity(new Intent(this, DeviceListActivity.class));
+			startActivity(new Intent(this, PatientsProfileDBActivity.class));
 
 			Toast.makeText(this, "View data from cloud", Toast.LENGTH_SHORT)
 					.show();

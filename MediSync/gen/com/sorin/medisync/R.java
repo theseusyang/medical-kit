@@ -29,6 +29,7 @@ public final class R {
         /**  The following array list will encapsulate all fragment views of the items in the drawer layout list 
          */
         public static final int nav_classes=0x7f0a0000;
+        public static final int priorities=0x7f0a0009;
         public static final int tools_menu_icons=0x7f0a0006;
     }
     public static final class attr {
@@ -349,20 +350,22 @@ containing a value of this type.
         public static final int xray_skull=0x7f020079;
     }
     public static final class id {
-        public static final int action_bt=0x7f09003f;
-        public static final int action_filepicker_save=0x7f090041;
-        public static final int action_filepicker_view=0x7f090042;
-        public static final int action_get_address=0x7f090047;
-        public static final int action_get_location=0x7f090046;
-        public static final int action_map=0x7f09003e;
-        public static final int action_print=0x7f09003d;
-        public static final int action_qrscan=0x7f090040;
-        public static final int action_save=0x7f090045;
-        public static final int action_settings=0x7f090043;
-        public static final int action_start_update=0x7f090048;
-        public static final int action_stop_update=0x7f090049;
-        public static final int action_websearch=0x7f090044;
-        public static final int add=0x7f090038;
+        public static final int LinearLayout01=0x7f090035;
+        public static final int TextView01=0x7f09003b;
+        public static final int action_bt=0x7f090048;
+        public static final int action_filepicker_save=0x7f09004a;
+        public static final int action_filepicker_view=0x7f09004b;
+        public static final int action_get_address=0x7f090050;
+        public static final int action_get_location=0x7f09004f;
+        public static final int action_map=0x7f090047;
+        public static final int action_print=0x7f090046;
+        public static final int action_qrscan=0x7f090049;
+        public static final int action_save=0x7f09004e;
+        public static final int action_settings=0x7f09004c;
+        public static final int action_start_update=0x7f090051;
+        public static final int action_stop_update=0x7f090052;
+        public static final int action_websearch=0x7f09004d;
+        public static final int add=0x7f090040;
         public static final int address=0x7f090027;
         public static final int address_progress=0x7f09002e;
         public static final int btnOff=0x7f09000d;
@@ -371,9 +374,10 @@ containing a value of this type.
         public static final int button2=0x7f09001e;
         public static final int button_scan=0x7f09001c;
         public static final int button_send=0x7f090012;
-        public static final int connection=0x7f090039;
-        public static final int disconnect=0x7f09003b;
-        public static final int discoverable=0x7f09003c;
+        public static final int category=0x7f090034;
+        public static final int connection=0x7f090042;
+        public static final int disconnect=0x7f090044;
+        public static final int discoverable=0x7f090045;
         public static final int drawer=0x7f090032;
         public static final int drawer_layout=0x7f090030;
         public static final int editText1=0x7f09000a;
@@ -382,7 +386,10 @@ containing a value of this type.
         public static final int get_location_button=0x7f09002b;
         public static final int gridView1=0x7f090006;
         public static final int hybrid=0x7f090004;
+        public static final int icon=0x7f090039;
         public static final int imageView1=0x7f09001d;
+        public static final int insert=0x7f090041;
+        public static final int label=0x7f09003a;
         public static final int label_address=0x7f090028;
         public static final int label_lat_lng=0x7f090026;
         public static final int lat_lng=0x7f090025;
@@ -406,7 +413,7 @@ containing a value of this type.
         public static final int pulse_image=0x7f090014;
         public static final int pulse_value=0x7f090015;
         public static final int satellite=0x7f090002;
-        public static final int scan_connect=0x7f09003a;
+        public static final int scan_connect=0x7f090043;
         public static final int terrain=0x7f090003;
         public static final int textView1=0x7f09000b;
         public static final int text_connection_state=0x7f09002d;
@@ -415,12 +422,15 @@ containing a value of this type.
         public static final int title_new_devices=0x7f09001a;
         public static final int title_paired_devices=0x7f090018;
         public static final int title_right_text=0x7f090017;
+        public static final int todo_edit_button=0x7f090038;
+        public static final int todo_edit_description=0x7f090037;
+        public static final int todo_edit_summary=0x7f090036;
         public static final int togglebutton=0x7f090029;
         public static final int txtArduino=0x7f09000f;
-        public static final int viewpager1=0x7f090034;
-        public static final int viewpager2=0x7f090035;
-        public static final int viewpager3=0x7f090036;
-        public static final int viewpager4=0x7f090037;
+        public static final int viewpager1=0x7f09003c;
+        public static final int viewpager2=0x7f09003d;
+        public static final int viewpager3=0x7f09003e;
+        public static final int viewpager4=0x7f09003f;
         public static final int webView1=0x7f090008;
         public static final int webview=0x7f090033;
     }
@@ -446,17 +456,21 @@ containing a value of this type.
         public static final int medisync_main=0x7f030012;
         public static final int message=0x7f030013;
         public static final int print_dialog=0x7f030014;
-        public static final int viewpager_1=0x7f030015;
-        public static final int viewpager_2=0x7f030016;
-        public static final int viewpager_3=0x7f030017;
-        public static final int viewpager_4=0x7f030018;
-        public static final int xray_img=0x7f030019;
+        public static final int todo_edit=0x7f030015;
+        public static final int todo_list=0x7f030016;
+        public static final int todo_row=0x7f030017;
+        public static final int viewpager_1=0x7f030018;
+        public static final int viewpager_2=0x7f030019;
+        public static final int viewpager_3=0x7f03001a;
+        public static final int viewpager_4=0x7f03001b;
+        public static final int xray_img=0x7f03001c;
     }
     public static final class menu {
         public static final int cursor_menu=0x7f0b0000;
-        public static final int main_activity=0x7f0b0001;
-        public static final int main_menu=0x7f0b0002;
-        public static final int map_menu=0x7f0b0003;
+        public static final int listmenu=0x7f0b0001;
+        public static final int main_activity=0x7f0b0002;
+        public static final int main_menu=0x7f0b0003;
+        public static final int map_menu=0x7f0b0004;
     }
     public static final class string {
         public static final int IO_Exception_getFromLocation=0x7f060076;
@@ -480,6 +494,8 @@ containing a value of this type.
         /**  map related  stuff 
          */
         public static final int app_description=0x7f060069;
+        /**  main app strings 
+         */
         public static final int app_name=0x7f060000;
         public static final int app_start=0x7f06002f;
         /**  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=70] 
@@ -605,6 +621,7 @@ containing a value of this type.
         public static final int get_address=0x7f060071;
         public static final int get_location=0x7f060072;
         /**  BluetoothChat 
+ patient profile db 
          */
         public static final int hello=0x7f06004f;
         public static final int hello_blank_fragment=0x7f060064;
@@ -646,6 +663,7 @@ containing a value of this type.
         public static final int menu_data_patient_profile=0x7f060031;
         public static final int menu_data_prescriptions_index=0x7f060037;
         public static final int menu_data_xray_results=0x7f060033;
+        public static final int menu_delete=0x7f06008d;
         /**  emergency menu 
          */
         public static final int menu_emergency=0x7f060044;
@@ -653,6 +671,7 @@ containing a value of this type.
         public static final int menu_emergency_call_doctor=0x7f060048;
         public static final int menu_emergency_call_helicopter=0x7f060046;
         public static final int menu_emergency_call_nurse=0x7f060047;
+        public static final int menu_insert=0x7f06008c;
         public static final int menu_settings=0x7f060001;
         /**  tools menu 
          */
@@ -670,6 +689,7 @@ containing a value of this type.
         public static final int no_geocoder_available=0x7f060080;
         public static final int no_location_available=0x7f060081;
         public static final int no_resolution=0x7f060083;
+        public static final int no_todos=0x7f06008b;
         public static final int none_found=0x7f060060;
         public static final int none_paired=0x7f06005f;
         public static final int not_connected=0x7f060058;
@@ -692,6 +712,11 @@ containing a value of this type.
         public static final int title_activity_fullscreen=0x7f060066;
         public static final int title_other_devices=0x7f060062;
         public static final int title_paired_devices=0x7f060061;
+        public static final int todo_description=0x7f06008f;
+        public static final int todo_edit_confirm=0x7f060092;
+        public static final int todo_edit_description=0x7f060091;
+        public static final int todo_edit_summary=0x7f060090;
+        public static final int todo_summary=0x7f06008e;
         public static final int unknown=0x7f060089;
         public static final int unknown_activity_request_code=0x7f06008a;
     }

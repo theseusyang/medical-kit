@@ -75,9 +75,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.sorin.medisync.db.PatientProfileDetailActivity" >
+        </activity>
+        <activity android:name="com.sorin.medisync.db.PatientsProfileDBActivity" >
+        </activity>
 
         <provider
-            android:name="com.sorin.medisync.db.PAtientProfileContentProvider"
+            android:name="com.sorin.medisync.db.PatientProfileContentProvider"
             android:authorities="com.sorin.medisync.db" >
         </provider>
         <provider
