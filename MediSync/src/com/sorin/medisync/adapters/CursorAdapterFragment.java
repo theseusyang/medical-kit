@@ -19,9 +19,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListAdapter;
 
+import com.sorin.medisync.R;
 import com.sorin.medisync.data.CounterContentProvider;
 import com.sorin.medisync.data.CounterHelper;
-import com.sorin.medisync.R;
 
 public class CursorAdapterFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

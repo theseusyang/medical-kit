@@ -4,7 +4,7 @@
     <!-- The following array list will encapsulate all fragment views of the items in the drawer layout list -->
     <string-array name="nav_classes">
         <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
-        <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
+        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
         <item>com.sorin.medisync.pulse.PulseFragment</item>
         <item>com.sorin.medisync.adapters.ViewPagerFragment3</item>
         <item>com.sorin.medisync.adapters.ViewPagerFragment4</item>

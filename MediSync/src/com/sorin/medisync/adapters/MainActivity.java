@@ -1,6 +1,5 @@
 package com.sorin.medisync.adapters;
 
-import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -28,6 +27,7 @@ import android.widget.Toast;
 
 import com.sorin.medisync.R;
 import com.sorin.medisync.adapters.ShakeDetectorActivity.OnShakeListener;
+import com.sorin.medisync.bt.DeviceListActivity;
 import com.sorin.medisync.data.ListViewAdapter;
 import com.sorin.medisync.data.ListViewItemModel;
 import com.sorin.medisync.db.PatientsProfileDBActivity;
@@ -333,26 +333,19 @@ public class MainActivity extends FragmentActivity {
 			startActivity(new Intent(this, InfoMapActivity.class));
 
 			return true;
-		case R.id.action_bt:
-
+		case R.id.action_patient_profile:
 			startActivity(new Intent(this, PatientsProfileDBActivity.class));
-
-			Toast.makeText(this, "View data from cloud", Toast.LENGTH_SHORT)
+			Toast.makeText(this, "View patient profile", Toast.LENGTH_SHORT)
 					.show();
 			return true;
-		case R.id.action_websearch:
-			// create intent to perform web search for this planet
-			Intent intent = new Intent(Intent.ACTION_SEARCH);
-			intent.putExtra(SearchManager.QUERY, getApplicationContext()
-					.getDatabasePath(DROPBOX_SERVICE));
-			// catch event that there's no activity to handle intent
-			if (intent.resolveActivity(getPackageManager()) != null) {
-				startActivity(intent);
-			} else {
-				Toast.makeText(this, R.string.action_search_database,
-						Toast.LENGTH_LONG).show();
-			}
+		case R.id.action_bt:
+
+			startActivity(new Intent(this, DeviceListActivity.class));
+
+			Toast.makeText(this, "Scan for BT devices", Toast.LENGTH_SHORT)
+					.show();
 			return true;
+
 		default:
 			// Handle your other action bar items...
 			return super.onOptionsItemSelected(item);

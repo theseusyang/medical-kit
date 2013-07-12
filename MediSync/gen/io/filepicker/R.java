@@ -19,22 +19,22 @@ public final class R {
 		public static final int padding_small = 0x7f050000;
 	}
 	public static final class drawable {
-		public static final int footer = 0x7f020031;
-		public static final int gdrive = 0x7f020032;
-		public static final int glyphicons_008_film = 0x7f020033;
-		public static final int glyphicons_011_camera = 0x7f020034;
-		public static final int glyphicons_036_file = 0x7f020035;
-		public static final int glyphicons_144_folder_open = 0x7f020036;
-		public static final int glyphicons_154_show_big_thumbnails = 0x7f020037;
-		public static final int glyphicons_361_dropbox = 0x7f020038;
-		public static final int glyphicons_366_picasa = 0x7f020039;
-		public static final int glyphicons_381_github = 0x7f02003a;
-		public static final int glyphicons_390_facebook = 0x7f02003b;
-		public static final int glyphicons_395_flickr = 0x7f02003c;
-		public static final int glyphicons_399_email = 0x7f02003d;
-		public static final int ic_action_search = 0x7f02003e;
-		public static final int ic_launcher = 0x7f020053;
-		public static final int instagram = 0x7f02005e;
+		public static final int footer = 0x7f020032;
+		public static final int gdrive = 0x7f020033;
+		public static final int glyphicons_008_film = 0x7f020034;
+		public static final int glyphicons_011_camera = 0x7f020035;
+		public static final int glyphicons_036_file = 0x7f020036;
+		public static final int glyphicons_144_folder_open = 0x7f020037;
+		public static final int glyphicons_154_show_big_thumbnails = 0x7f020038;
+		public static final int glyphicons_361_dropbox = 0x7f020039;
+		public static final int glyphicons_366_picasa = 0x7f02003a;
+		public static final int glyphicons_381_github = 0x7f02003b;
+		public static final int glyphicons_390_facebook = 0x7f02003c;
+		public static final int glyphicons_395_flickr = 0x7f02003d;
+		public static final int glyphicons_399_email = 0x7f02003e;
+		public static final int ic_action_search = 0x7f02003f;
+		public static final int ic_launcher = 0x7f020054;
+		public static final int instagram = 0x7f02005f;
 		public static final int select = 0x7f020067;
 		public static final int spinner = 0x7f020069;
 	}

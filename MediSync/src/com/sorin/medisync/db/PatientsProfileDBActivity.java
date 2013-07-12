@@ -40,7 +40,7 @@ public class PatientsProfileDBActivity extends ListActivity implements
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.todo_list);
+		setContentView(R.layout.patient_list);
 		this.getListView().setDividerHeight(2);
 		fillData();
 		registerForContextMenu(getListView());
@@ -106,7 +106,7 @@ public class PatientsProfileDBActivity extends ListActivity implements
 		int[] to = new int[] { R.id.label };
 
 		getLoaderManager().initLoader(0, null, this);
-		adapter = new SimpleCursorAdapter(this, R.layout.todo_row, null, from,
+		adapter = new SimpleCursorAdapter(this, R.layout.patient_row, null, from,
 				to, 0);
 
 		setListAdapter(adapter);

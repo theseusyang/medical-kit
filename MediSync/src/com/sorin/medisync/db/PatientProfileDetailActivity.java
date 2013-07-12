@@ -28,7 +28,7 @@ public class PatientProfileDetailActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle bundle) {
 		super.onCreate(bundle);
-		setContentView(R.layout.todo_edit);
+		setContentView(R.layout.patient_edit);
 
 		mCategory = (Spinner) findViewById(R.id.category);
 		mTitleText = (EditText) findViewById(R.id.todo_edit_summary);
