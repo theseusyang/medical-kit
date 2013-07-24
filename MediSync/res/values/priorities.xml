@@ -2,8 +2,11 @@
 <resources>
 
     <string-array name="priorities">
-        <item>Urgent</item>
         <item>Reminder</item>
+         <item>Reminder</item>
+          <item>Moderate</item>
+           <item>Urgent</item>
+        <item>Emergency</item>
     </string-array>
 
 </resources> 

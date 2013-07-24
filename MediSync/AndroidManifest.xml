@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="17"
         android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -40,7 +40,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.Medisync" >
-
+<activity android:name="com.sorin.medisync.animation.ListViewItemAnimations"></activity>
         <!-- Bt activities -->
         <activity android:name="com.sorin.medisync.bt.BTSendActivity" >
         </activity>

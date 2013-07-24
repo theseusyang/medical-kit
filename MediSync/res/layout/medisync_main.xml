@@ -3,14 +3,14 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ArduinoBTActivity" >
+    tools:context=".MainActivity" >
 
     <FrameLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
     </FrameLayout>
-
+ 
     <ListView
         android:id="@+id/drawer"
         android:layout_width="240dp"

@@ -27,6 +27,7 @@ import android.widget.Toast;
 
 import com.sorin.medisync.R;
 import com.sorin.medisync.adapters.ShakeDetectorActivity.OnShakeListener;
+import com.sorin.medisync.animation.ListViewItemAnimations;
 import com.sorin.medisync.bt.DeviceListActivity;
 import com.sorin.medisync.data.ListViewAdapter;
 import com.sorin.medisync.data.ListViewItemModel;
@@ -327,6 +328,11 @@ public class MainActivity extends FragmentActivity {
 
 			Toast.makeText(this, "View data from cloud services",
 					Toast.LENGTH_SHORT).show();
+			return true;
+		case R.id.action_list_animation:
+
+			startActivity(new Intent(this, ListViewItemAnimations.class));
+
 			return true;
 		case R.id.action_map:
 

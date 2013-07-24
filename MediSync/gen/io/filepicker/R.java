@@ -36,7 +36,7 @@ public final class R {
 		public static final int ic_launcher = 0x7f020054;
 		public static final int instagram = 0x7f02005f;
 		public static final int select = 0x7f020067;
-		public static final int spinner = 0x7f020069;
+		public static final int spinner = 0x7f02006a;
 	}
 	public static final class id {
 		public static final int button1 = 0x7f09000c;

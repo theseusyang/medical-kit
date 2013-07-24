@@ -77,6 +77,16 @@ import com.sorin.medisync.qr.IntentIntegratorQR;
 public class InfoMapActivity extends FragmentActivity implements
 		LocationListener, GooglePlayServicesClient.ConnectionCallbacks,
 		GooglePlayServicesClient.OnConnectionFailedListener {
+	// constants for defining the coordinates of the view animation
+	private static final float TX_START = 0;
+	private static final float TY_START = 0;
+	private static final float TX_END = -10;
+	private static final float TY_END = 0;
+	private static final float TX_END_LOCATION = 0;
+	private static final float TX_END_ADDRESS = 0;
+	private static final float TY_END_ADDRESS = 80;
+	private static final float TY_END_LOCATION = 40;
+
 	private SupportMapFragment mapFragment;
 	private GoogleMap map;
 	// A request to connect to Location Services
@@ -325,7 +335,7 @@ public class InfoMapActivity extends FragmentActivity implements
 	 *            Button.
 	 */
 	public void getLocation(View v) {
-
+		v.animate().translationX(TX_END_LOCATION).translationY(TY_END_LOCATION);
 		// If Google Play Services is available
 		if (servicesConnected()) {
 
@@ -350,7 +360,7 @@ public class InfoMapActivity extends FragmentActivity implements
 	// For Eclipse with ADT, suppress warnings about Geocoder.isPresent()
 	@SuppressLint("NewApi")
 	public void getAddress(View v) {
-
+		v.animate().translationX(TX_END_ADDRESS).translationY(TY_END_ADDRESS);
 		// In Gingerbread and later, use Geocoder.isPresent() to see if a
 		// geocoder is available.
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD
@@ -388,6 +398,9 @@ public class InfoMapActivity extends FragmentActivity implements
 			 *            The view object associated with this method, in this
 			 *            case a Button.
 			 */
+			// view will animate according to toggle state
+			view.animate().translationX(TX_START).translationY(TY_START);
+
 			// Enable location updates
 			mUpdatesRequested = true;
 			if (servicesConnected()) {
@@ -402,6 +415,8 @@ public class InfoMapActivity extends FragmentActivity implements
 			 *            The view object associated with this method, in this
 			 *            case a Button.
 			 */
+			// view will animate according to toggle state
+			view.animate().translationX(TX_END).translationY(TY_END);
 			// Disable location updates
 			mUpdatesRequested = false;
 

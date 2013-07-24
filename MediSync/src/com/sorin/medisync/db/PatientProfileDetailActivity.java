@@ -60,6 +60,7 @@ public class PatientProfileDetailActivity extends Activity {
 			}
 
 		});
+
 	}
 
 	private void fillData(Uri uri) {

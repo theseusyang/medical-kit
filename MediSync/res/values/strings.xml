@@ -5,7 +5,7 @@
     <string name="app_name">MediSync</string>
     <string name="hello_world">Hello world!</string>
     <string name="empty">No Items</string>
-    <string name="image_base_url">https://raw.github.com/android/platform_frameworks_base/master/core/res/res/drawable-%1$s/%2$s.png</string>
+    <string name="image_base_url">"http://www.pmgza.com/wp-content/uploads/2011/06/Medical-Insurance.jpg"></string>
     <string name="action_add">Add</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
@@ -134,11 +134,10 @@
     <string name="unknown">--Unknown--</string>
     <string name="unknown_activity_request_code">        Received an unknown activity request code %1$d in onActivityResult.</string>
     <!-- patient profile db -->
-   
+
     <string name="no_patients">Currently there are no registered patients</string>
     <string name="menu_insert">Add Item</string>
     <string name="menu_delete">Delete Todo</string>
-   
     <string name="patient_profile_description">Delete Todo</string>
     <string name="patient_profile_summary">Summary</string>
     <string name="patient_profile_description">Description</string>
