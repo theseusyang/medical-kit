@@ -311,9 +311,12 @@ int string address_output_string 0x7f06006a
 int string app_description 0x7f060069
 int string app_name 0x7f060000
 int string app_start 0x7f06002f
-int string auth_client_availability_notification_title 0x7f060014
-int string auth_client_play_services_err_notification_msg 0x7f060015
-int string auth_client_requested_by_msg 0x7f060016
+int string auth_client_needs_enabling_title 0x7f060015
+int string auth_client_needs_installation_title 0x7f060016
+int string auth_client_needs_update_title 0x7f060017
+int string auth_client_play_services_err_notification_msg 0x7f060018
+int string auth_client_requested_by_msg 0x7f060019
+int string auth_client_using_bad_version_title 0x7f060014
 int string bt_enabled 0x7f060053
 int string bt_not_available 0x7f060052
 int string bt_not_enabled_leaving 0x7f060054
@@ -374,9 +377,6 @@ int string invalid_action 0x7f060074
 int string invalid_integer_id 0x7f060075
 int string latitude_longitude 0x7f06006b
 int string latlng 0x7f06006c
-int string location_client_ulr_inactive_age_under_13 0x7f060017
-int string location_client_ulr_inactive_age_unknown 0x7f060018
-int string location_client_ulr_inactive_unknown_restriction 0x7f060019
 int string location_requested 0x7f060077
 int string location_update_error 0x7f060079
 int string location_update_error_detail 0x7f06007a

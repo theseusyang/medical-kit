@@ -2,10 +2,16 @@ package com.sorin.medisync.db;
 
 import android.app.Activity;
 import android.content.ContentValues;
+import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.text.TextUtils;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -13,6 +19,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.sorin.medisync.R;
+import com.sorin.medisync.qr.IntentIntegratorQR;
 
 /*
  * TodoDetailActivity allows to enter a new todo item 
@@ -138,5 +145,48 @@ public class PatientProfileDetailActivity extends Activity {
 	private void makeToast() {
 		Toast.makeText(PatientProfileDetailActivity.this,
 				"Please maintain a summary", Toast.LENGTH_LONG).show();
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.main_menu, menu);
+		return super.onCreateOptionsMenu(menu);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+
+		// Handle action buttons
+		switch (item.getItemId()) {
+
+		case R.id.action_qrscan:
+			// Get instance of Vibrator from current Context
+			Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+
+			// Vibrate for 30 milliseconds
+			v.vibrate(30);
+
+			// TODO Auto-generated method stub
+			IntentIntegratorQR integratorQR = new IntentIntegratorQR(
+					PatientProfileDetailActivity.this);
+			integratorQR.initiateScan();
+			return true;
+		default:
+			// Handle your other action bar items...
+			return super.onOptionsItemSelected(item);
+		}
+	}
+
+	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		com.sorin.medisync.qr.IntentResult scanResult = IntentIntegratorQR
+				.parseActivityResult(requestCode, resultCode, intent);
+		if (scanResult != null) {
+			// handle scan result
+			String contents = scanResult.getContents();
+			mTitleText.setText("Patient " + (contents));
+			mBodyText.setText("" + (contents));
+		}
+
 	}
 }

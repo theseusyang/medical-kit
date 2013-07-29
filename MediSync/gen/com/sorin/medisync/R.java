@@ -505,65 +505,65 @@ containing a value of this type.
          */
         public static final int app_name=0x7f060000;
         public static final int app_start=0x7f06002f;
-        /**  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=70] 
+        /**   Title for notification shown when GooglePlayServices needs to be
+        enabled for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_availability_notification_title=0x7f060014;
-        /**  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
+        public static final int auth_client_needs_enabling_title=0x7f060015;
+        /**   Title for notification shown when GooglePlayServices needs to be
+        installed for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_play_services_err_notification_msg=0x7f060015;
-        /**  Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
+        public static final int auth_client_needs_installation_title=0x7f060016;
+        /**   Title for notification shown when GooglePlayServices needs to be
+        udpated for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_requested_by_msg=0x7f060016;
+        public static final int auth_client_needs_update_title=0x7f060017;
+        /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
+         */
+        public static final int auth_client_play_services_err_notification_msg=0x7f060018;
+        /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
+         */
+        public static final int auth_client_requested_by_msg=0x7f060019;
+        /**   Title for notification shown when a bad version of GooglePlayServices
+        has been installed and needs correction for an application to work.
+        [CHAR LIMIT=70] 
+         */
+        public static final int auth_client_using_bad_version_title=0x7f060014;
         public static final int bt_enabled=0x7f060053;
         public static final int bt_not_available=0x7f060052;
         public static final int bt_not_enabled_leaving=0x7f060054;
         public static final int button_scan=0x7f060063;
         public static final int button_send=0x7f060051;
         public static final int close=0x7f06002d;
-        /** 
-         Button in confirmation dialog to enable Google Play services.  Clicking it
+        /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
-        can enable it [CHAR LIMIT=40]
-    
+        can enable it [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_enable_button=0x7f06000b;
-        /** 
-         Message in confirmation dialog informing user they need to enable
-        Google Play services in application settings [CHAR LIMIT=NONE]
-    
+        /**  Message in confirmation dialog informing user they need to enable
+        Google Play services in application settings [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_enable_text=0x7f06000a;
-        /** 
-         Title of confirmation dialog informing user they need to enable
-        Google Play services in application settings [CHAR LIMIT=40]
-    
+        /**  Title of confirmation dialog informing user they need to enable
+        Google Play services in application settings [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_enable_title=0x7f060009;
         /**  Button in confirmation dialog for installing Google Play services [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_install_button=0x7f060008;
-        /** 
-         (For phones) Message in confirmation dialog informing user that
-        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE]
-    
+        /**  (For phones) Message in confirmation dialog informing user that
+        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_install_text_phone=0x7f060006;
-        /** 
-         (For tablets) Message in confirmation dialog informing user that
-        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE]
-    
+        /**  (For tablets) Message in confirmation dialog informing user that
+        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_install_text_tablet=0x7f060007;
-        /** 
-         Title of confirmation dialog informing user that they need to install
-        Google Play services (from Play Store) [CHAR LIMIT=40]
-    
+        /**  Title of confirmation dialog informing user that they need to install
+        Google Play services (from Play Store) [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_install_title=0x7f060005;
-        /** 
-         Message in confirmation dialog informing user there is an unknown issue in Google Play
-        services [CHAR LIMIT=NONE]
-    
+        /**  Message in confirmation dialog informing user there is an unknown issue in Google Play
+        services [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_unknown_issue=0x7f06000e;
         /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
@@ -575,16 +575,12 @@ containing a value of this type.
         /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_update_button=0x7f060011;
-        /** 
-         Message in confirmation dialog informing user that they need to update
-        Google Play services (from Play Store) [CHAR LIMIT=NONE]
-    
+        /**  Message in confirmation dialog informing user that they need to update
+        Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_update_text=0x7f06000d;
-        /** 
-         Title of confirmation dialog informing user that they need to update
-        Google Play services (from Play Store) [CHAR LIMIT=40]
-    
+        /**  Title of confirmation dialog informing user that they need to update
+        Google Play services (from Play Store) [CHAR LIMIT=40] 
          */
         public static final int common_google_play_services_update_title=0x7f06000c;
         /**  Sign-in button text [CHAR LIMIT=15] 
@@ -642,13 +638,6 @@ containing a value of this type.
         /**  Labels 
          */
         public static final int latlng=0x7f06006c;
-        /**  Location client code resources (prefix with location_client) 
-         Begin strings for location.reporting 
-         Some InactiveReason names.  See more in OneUp/package/location/res/values/strings.xml 
-         */
-        public static final int location_client_ulr_inactive_age_under_13=0x7f060017;
-        public static final int location_client_ulr_inactive_age_unknown=0x7f060018;
-        public static final int location_client_ulr_inactive_unknown_restriction=0x7f060019;
         public static final int location_requested=0x7f060077;
         public static final int location_update_error=0x7f060079;
         public static final int location_update_error_detail=0x7f06007a;
@@ -794,7 +783,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:buttonBarButtonStyle
+          @attr name com.sorin.medisync:buttonBarButtonStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarButtonStyle = 1;
         /**
@@ -804,7 +793,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:buttonBarStyle
+          @attr name com.sorin.medisync:buttonBarStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarStyle = 0;
         /** Attributes that can be used with a HelloGallery.
@@ -813,7 +802,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #HelloGallery_android_galleryItemBackground com.sorin.medisync:android_galleryItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #HelloGallery_android_galleryItemBackground android:galleryItemBackground}</code></td><td></td></tr>
            </table>
            @see #HelloGallery_android_galleryItemBackground
          */
@@ -821,9 +810,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x0101004c
         };
         /**
-          <p>This symbol is the offset where the {@link com.sorin.medisync.R.attr#android_galleryItemBackground}
+          <p>This symbol is the offset where the {@link android.R.attr#galleryItemBackground}
           attribute's value can be found in the {@link #HelloGallery} array.
-          @attr name android:android_galleryItemBackground
+          @attr name android:galleryItemBackground
         */
         public static final int HelloGallery_android_galleryItemBackground = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -879,7 +868,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cameraBearing
+          @attr name com.sorin.medisync:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
@@ -893,7 +882,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cameraTargetLat
+          @attr name com.sorin.medisync:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
@@ -907,7 +896,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cameraTargetLng
+          @attr name com.sorin.medisync:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
@@ -921,7 +910,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cameraTilt
+          @attr name com.sorin.medisync:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
@@ -935,7 +924,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cameraZoom
+          @attr name com.sorin.medisync:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
@@ -955,7 +944,7 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name android:mapType
+          @attr name com.sorin.medisync:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
@@ -969,7 +958,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiCompass
+          @attr name com.sorin.medisync:uiCompass
         */
         public static final int MapAttrs_uiCompass = 6;
         /**
@@ -983,7 +972,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiRotateGestures
+          @attr name com.sorin.medisync:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 7;
         /**
@@ -997,7 +986,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiScrollGestures
+          @attr name com.sorin.medisync:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 8;
         /**
@@ -1011,7 +1000,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiTiltGestures
+          @attr name com.sorin.medisync:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 9;
         /**
@@ -1025,7 +1014,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiZoomControls
+          @attr name com.sorin.medisync:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 10;
         /**
@@ -1039,7 +1028,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiZoomGestures
+          @attr name com.sorin.medisync:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 11;
         /**
@@ -1053,7 +1042,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:useViewLifecycle
+          @attr name com.sorin.medisync:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 12;
         /**
@@ -1067,7 +1056,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:zOrderOnTop
+          @attr name com.sorin.medisync:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 13;
         /** Attributes that can be used with a MyView.
@@ -1101,7 +1090,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:exampleColor
+          @attr name com.sorin.medisync:exampleColor
         */
         public static final int MyView_exampleColor = 2;
         /**
@@ -1117,7 +1106,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:exampleDimension
+          @attr name com.sorin.medisync:exampleDimension
         */
         public static final int MyView_exampleDimension = 1;
         /**
@@ -1129,7 +1118,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:exampleDrawable
+          @attr name com.sorin.medisync:exampleDrawable
         */
         public static final int MyView_exampleDrawable = 3;
         /**
@@ -1143,7 +1132,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:exampleString
+          @attr name com.sorin.medisync:exampleString
         */
         public static final int MyView_exampleString = 0;
     };

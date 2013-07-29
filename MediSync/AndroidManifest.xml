@@ -40,7 +40,8 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.Medisync" >
-<activity android:name="com.sorin.medisync.animation.ListViewItemAnimations"></activity>
+        <activity android:name="com.sorin.medisync.animation.ListViewItemAnimations" >
+        </activity>
         <!-- Bt activities -->
         <activity android:name="com.sorin.medisync.bt.BTSendActivity" >
         </activity>
@@ -75,7 +76,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.sorin.medisync.db.PatientProfileDetailActivity" >
+        <activity
+            android:name="com.sorin.medisync.db.PatientProfileDetailActivity"
+            android:configChanges="orientation|keyboardHidden" >
         </activity>
         <activity android:name="com.sorin.medisync.db.PatientsProfileDBActivity" >
         </activity>

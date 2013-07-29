@@ -82,10 +82,6 @@ public class InfoMapActivity extends FragmentActivity implements
 	private static final float TY_START = 0;
 	private static final float TX_END = -10;
 	private static final float TY_END = 0;
-	private static final float TX_END_LOCATION = 0;
-	private static final float TX_END_ADDRESS = 0;
-	private static final float TY_END_ADDRESS = 80;
-	private static final float TY_END_LOCATION = 40;
 
 	private SupportMapFragment mapFragment;
 	private GoogleMap map;
@@ -335,16 +331,31 @@ public class InfoMapActivity extends FragmentActivity implements
 	 *            Button.
 	 */
 	public void getLocation(View v) {
-		v.animate().translationX(TX_END_LOCATION).translationY(TY_END_LOCATION);
-		// If Google Play Services is available
-		if (servicesConnected()) {
+		// Is the toggle on?
+		boolean on = ((ToggleButton) v).isChecked();
 
+		// If Google Play Services is available
+		if (on) {
+			v.animate().translationX(TX_END).translationY(TY_END);
 			// Get the current location
 			Location currentLocation = mLocationClient.getLastLocation();
 
 			// Display the current location in the UI
 			mLatLng.setText(LocationUtils.getLatLng(this, currentLocation));
 
+		} else {
+			/**
+			 * Invoked by the "Stop Updates" button Sends a request to remove
+			 * location updates request them.
+			 * 
+			 * @param v
+			 *            The view object associated with this method, in this
+			 *            case a Button.
+			 */
+			// view will animate according to toggle state
+			v.animate().translationX(TX_START).translationY(TY_START);
+			// Disable location updates
+			mLatLng.setText("No location updates");
 		}
 	}
 
@@ -360,18 +371,18 @@ public class InfoMapActivity extends FragmentActivity implements
 	// For Eclipse with ADT, suppress warnings about Geocoder.isPresent()
 	@SuppressLint("NewApi")
 	public void getAddress(View v) {
-		v.animate().translationX(TX_END_ADDRESS).translationY(TY_END_ADDRESS);
-		// In Gingerbread and later, use Geocoder.isPresent() to see if a
-		// geocoder is available.
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD
-				&& !Geocoder.isPresent()) {
-			// No geocoder is present. Issue an error message
-			Toast.makeText(this, R.string.no_geocoder_available,
-					Toast.LENGTH_LONG).show();
-			return;
-		}
-
-		if (servicesConnected()) {
+		boolean on = ((ToggleButton) v).isChecked();
+		if (on) {
+			v.animate().translationX(TX_END).translationY(TY_END);
+			// In Gingerbread and later, use Geocoder.isPresent() to see if a
+			// geocoder is available.
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD
+					&& !Geocoder.isPresent()) {
+				// No geocoder is present. Issue an error message
+				Toast.makeText(this, R.string.no_geocoder_available,
+						Toast.LENGTH_LONG).show();
+				return;
+			}
 
 			// Get the current location
 			Location currentLocation = mLocationClient.getLastLocation();
@@ -381,6 +392,13 @@ public class InfoMapActivity extends FragmentActivity implements
 
 			// Start the background task
 			(new InfoMapActivity.GetAddressTask(this)).execute(currentLocation);
+		} else {
+			v.animate().translationX(TX_START).translationY(TY_START);
+			// Turn the indefinite activity indicator on
+			mActivityIndicator.setVisibility(View.INVISIBLE);
+
+			// Start the background task
+			mAddress.setText("No address updates");
 		}
 	}
 
@@ -399,7 +417,7 @@ public class InfoMapActivity extends FragmentActivity implements
 			 *            case a Button.
 			 */
 			// view will animate according to toggle state
-			view.animate().translationX(TX_START).translationY(TY_START);
+			view.animate().translationX(TX_END).translationY(TY_END);
 
 			// Enable location updates
 			mUpdatesRequested = true;
@@ -407,6 +425,7 @@ public class InfoMapActivity extends FragmentActivity implements
 				startPeriodicUpdates();
 			}
 		} else {
+			view.animate().translationX(TX_START).translationY(TY_START);
 			/**
 			 * Invoked by the "Stop Updates" button Sends a request to remove
 			 * location updates request them.
@@ -416,7 +435,7 @@ public class InfoMapActivity extends FragmentActivity implements
 			 *            case a Button.
 			 */
 			// view will animate according to toggle state
-			view.animate().translationX(TX_END).translationY(TY_END);
+
 			// Disable location updates
 			mUpdatesRequested = false;
 
