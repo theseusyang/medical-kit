@@ -13,6 +13,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -29,7 +31,8 @@ public class PatientProfileDetailActivity extends Activity {
 	private Spinner mCategory;
 	private EditText mTitleText;
 	private EditText mBodyText;
-
+	private Button bTitle;
+	private Button bBody;
 	private Uri todoUri;
 
 	@Override
@@ -55,9 +58,14 @@ public class PatientProfileDetailActivity extends Activity {
 
 			fillData(todoUri);
 		}
+		// define button animation
 
+		final Animation animAlpha = AnimationUtils.loadAnimation(this,
+				R.anim.anim_alpha);
 		confirmButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View view) {
+				view.startAnimation(animAlpha);
+
 				if (TextUtils.isEmpty(mTitleText.getText().toString())) {
 					makeToast();
 				} else {
@@ -186,6 +194,11 @@ public class PatientProfileDetailActivity extends Activity {
 			String contents = scanResult.getContents();
 			mTitleText.setText("Patient " + (contents));
 			mBodyText.setText("" + (contents));
+		} else {
+			// TODO Auto-generated method stub
+			IntentIntegratorQR integratorQR = new IntentIntegratorQR(
+					PatientProfileDetailActivity.this);
+			integratorQR.initiateScan();
 		}
 
 	}

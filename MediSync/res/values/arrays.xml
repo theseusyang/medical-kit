@@ -5,7 +5,7 @@
     <string-array name="nav_classes">
         <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
         <item>com.sorin.medisync.adapters.PatientListFragment</item>
-        <item>com.sorin.medisync.pulse.PulseFragment</item>
+        <item>com.sorin.medisync.adapters.HospitalStaffFragment</item>
         <item>com.sorin.medisync.adapters.ViewPagerFragment3</item>
         <item>com.sorin.medisync.adapters.ViewPagerFragment4</item>
         <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
@@ -13,13 +13,13 @@
         <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
         <item>com.sorin.medisync.adapters.ArrayAdapterStringFragment</item>
         <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterObjectFragment</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
-        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
-        <item>com.sorin.medisync.pulse.PulseFragment</item>
         <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
+        <item>com.sorin.medisync.adapters.EndoscopeFragment</item>
         <item>com.sorin.medisync.pulse.PulseFragment</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterObjectFragment</item>
+        <item>com.sorin.medisync.adapters.EndoscopeFragment</item>
+        <item>com.sorin.medisync.pulse.PulseFragment</item>
+        <item>com.sorin.medisync.adapters.PatientListFragment</item>
         <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
         <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
         <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
@@ -123,6 +123,17 @@
         <item>xray_foot</item>
         <item>xray_linux</item>
         <item>xray_skull</item>
+    </array>
+    <array name="patients_icons">
+        <item>chef</item>
+        <item>clown</item>
+        <item>astronaut</item>
+        <item>asian</item>
+        <item>holmes64</item>
+        <item>harry64</item>
+        <item>monroe64</item>
+        <item>priest</item>
+        <item>termi64</item>
     </array>
 
 </resources>

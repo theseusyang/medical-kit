@@ -8,15 +8,15 @@ package io.filepicker;
 
 public final class R {
 	public static final class anim {
-		public static final int right_slide_in = 0x7f040000;
-		public static final int right_slide_in_back = 0x7f040001;
-		public static final int right_slide_out = 0x7f040002;
-		public static final int right_slide_out_back = 0x7f040003;
+		public static final int right_slide_in = 0x7f040008;
+		public static final int right_slide_in_back = 0x7f040009;
+		public static final int right_slide_out = 0x7f04000a;
+		public static final int right_slide_out_back = 0x7f04000b;
 	}
 	public static final class dimen {
-		public static final int padding_large = 0x7f050002;
-		public static final int padding_medium = 0x7f050001;
-		public static final int padding_small = 0x7f050000;
+		public static final int padding_large = 0x7f080002;
+		public static final int padding_medium = 0x7f080001;
+		public static final int padding_small = 0x7f080000;
 	}
 	public static final class drawable {
 		public static final int footer = 0x7f020032;
@@ -35,18 +35,18 @@ public final class R {
 		public static final int ic_action_search = 0x7f02003f;
 		public static final int ic_launcher = 0x7f020054;
 		public static final int instagram = 0x7f02005f;
-		public static final int select = 0x7f020067;
-		public static final int spinner = 0x7f02006a;
+		public static final int select = 0x7f020073;
+		public static final int spinner = 0x7f020076;
 	}
 	public static final class id {
-		public static final int button1 = 0x7f09000c;
-		public static final int editText1 = 0x7f09000a;
-		public static final int gridView1 = 0x7f090006;
-		public static final int linearLayout1 = 0x7f090009;
-		public static final int listView1 = 0x7f090005;
-		public static final int progressBar1 = 0x7f090007;
-		public static final int textView1 = 0x7f09000b;
-		public static final int webView1 = 0x7f090008;
+		public static final int button1 = 0x7f06000c;
+		public static final int editText1 = 0x7f06000a;
+		public static final int gridView1 = 0x7f060006;
+		public static final int linearLayout1 = 0x7f060009;
+		public static final int listView1 = 0x7f060005;
+		public static final int progressBar1 = 0x7f060007;
+		public static final int textView1 = 0x7f06000b;
+		public static final int webView1 = 0x7f060008;
 	}
 	public static final class layout {
 		public static final int activity_file_picker = 0x7f030000;
@@ -54,13 +54,13 @@ public final class R {
 		public static final int activity_file_picker_saveas = 0x7f030002;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f060000;
-		public static final int file_picker_animation_duration = 0x7f060004;
-		public static final int menu_settings = 0x7f060001;
-		public static final int title_activity_file_picker = 0x7f060002;
-		public static final int title_activity_file_picker_auth = 0x7f060003;
+		public static final int app_name = 0x7f070015;
+		public static final int file_picker_animation_duration = 0x7f070019;
+		public static final int menu_settings = 0x7f070016;
+		public static final int title_activity_file_picker = 0x7f070017;
+		public static final int title_activity_file_picker_auth = 0x7f070018;
 	}
 	public static final class style {
-		public static final int AppTheme = 0x7f070000;
+		public static final int AppTheme = 0x7f090000;
 	}
 }

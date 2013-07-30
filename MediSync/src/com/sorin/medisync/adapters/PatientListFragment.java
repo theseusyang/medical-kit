@@ -22,7 +22,6 @@ public class PatientListFragment extends ListFragment {
 
 	@Override
 	public void onListItemClick(ListView l, View v, int position, long id) {
-		// Do something with the data
 
 	}
 }
