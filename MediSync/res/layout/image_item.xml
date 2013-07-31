@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:gravity="left|center_vertical"
     android:minHeight="?android:attr/listPreferredItemHeightSmall"
     android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
@@ -11,23 +11,14 @@
         android:id="@android:id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="left"
         android:textIsSelectable="false" />
 
     <ImageView
-        android:id="@android:id/icon"
+        android:id="@+id/image_view_pager_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@android:id/text1"
-        android:visibility="gone" />
-
-    <ProgressBar
-        android:id="@android:id/progress"
-        style="@android:style/Widget.ProgressBar.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@android:id/text1"
-        android:indeterminate="true"
-        android:minHeight="@dimen/image_size"
-        android:minWidth="@dimen/image_size" />
+        android:gravity="center"
+        android:src="@drawable/xray_chest" />
 
 </RelativeLayout>

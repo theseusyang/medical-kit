@@ -13,7 +13,7 @@
     <item
         android:id="@+id/action_bt"
         android:icon="@drawable/action_bluetooth"
-        android:showAsAction="never"
+        android:showAsAction="always"
         android:title="Bluetooth"/>
     <item
         android:id="@+id/action_qrscan"
@@ -23,23 +23,20 @@
     <item
         android:id="@+id/action_filepicker_save"
         android:icon="@drawable/action_filepicker_save"
-        android:showAsAction="never"
+        android:showAsAction="always"
         android:title="@string/action_save_image"/>
     <item
         android:id="@+id/action_filepicker_view"
         android:icon="@android:drawable/ic_menu_view"
-        android:showAsAction="never"
+        android:showAsAction="always"
         android:title="@string/action_view_image"/>
     <item
-        android:id="@+id/action_patient_profile"
-        android:icon="@drawable/action_search"
-        android:showAsAction="always"
-        android:title="@string/action_view_patient_profile"/>
+        android:id="@+id/action_note"
+        android:icon="@drawable/ic_patient_profile"
+        android:showAsAction="always"/>
     <item
         android:id="@+id/action_list_animation"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="ListAnimation"/>
+        android:showAsAction="never"/>
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

@@ -281,7 +281,19 @@ public class MainActivity extends FragmentActivity {
 		}
 		// Handle action buttons
 		switch (item.getItemId()) {
+		case R.id.action_qrscan:
+			// Get instance of Vibrator from current Context
+			Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
+			// Vibrate for 300 milliseconds
+			v.vibrate(300);
+
+			IntentIntegratorQR integratorQR = new IntentIntegratorQR(
+					MainActivity.this);
+			integratorQR.initiateScan();
+
+			Toast.makeText(this, "Scan Qr Code", Toast.LENGTH_SHORT).show();
+			return true;
 		case R.id.action_print:
 
 			try {
@@ -302,19 +314,7 @@ public class MainActivity extends FragmentActivity {
 			}
 
 			return true;
-		case R.id.action_qrscan:
-			// Get instance of Vibrator from current Context
-			Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
-			// Vibrate for 300 milliseconds
-			v.vibrate(300);
-
-			IntentIntegratorQR integratorQR = new IntentIntegratorQR(
-					MainActivity.this);
-			integratorQR.initiateScan();
-
-			Toast.makeText(this, "Scan Qr Code", Toast.LENGTH_SHORT).show();
-			return true;
 		case R.id.action_filepicker_save:
 
 			startActivity(new Intent(this, FilepickerSaver.class));
@@ -339,7 +339,7 @@ public class MainActivity extends FragmentActivity {
 			startActivity(new Intent(this, InfoMapActivity.class));
 
 			return true;
-		case R.id.action_patient_profile:
+		case R.id.action_note:
 			startActivity(new Intent(this, PatientsProfileDBActivity.class));
 			Toast.makeText(this, "View patient profile", Toast.LENGTH_SHORT)
 					.show();
@@ -365,9 +365,35 @@ public class MainActivity extends FragmentActivity {
 	@Override
 	public boolean onPrepareOptionsMenu(Menu menu) {
 		if (drawerLayout != null && navList != null) {
-			MenuItem item = menu.findItem(R.id.action_qrscan);
+			// each item in the following rows will desapear from the action bar
+			// when the drawer is open
+			MenuItem item = menu.findItem(R.id.action_print);
 			if (item != null) {
 				item.setVisible(!drawerLayout.isDrawerOpen(navList));
+			}
+			MenuItem item1 = menu.findItem(R.id.action_list_animation);
+			if (item1 != null) {
+				item1.setVisible(!drawerLayout.isDrawerOpen(navList));
+			}
+			MenuItem item2 = menu.findItem(R.id.action_map);
+			if (item2 != null) {
+				item2.setVisible(!drawerLayout.isDrawerOpen(navList));
+			}
+			MenuItem item3 = menu.findItem(R.id.action_note);
+			if (item3 != null) {
+				item3.setVisible(!drawerLayout.isDrawerOpen(navList));
+			}
+			MenuItem item4 = menu.findItem(R.id.action_filepicker_save);
+			if (item4 != null) {
+				item4.setVisible(!drawerLayout.isDrawerOpen(navList));
+			}
+			MenuItem item5 = menu.findItem(R.id.action_filepicker_view);
+			if (item5 != null) {
+				item5.setVisible(!drawerLayout.isDrawerOpen(navList));
+			}
+			MenuItem item6 = menu.findItem(R.id.action_bt);
+			if (item6 != null) {
+				item6.setVisible(!drawerLayout.isDrawerOpen(navList));
 			}
 		}
 		return super.onPrepareOptionsMenu(menu);

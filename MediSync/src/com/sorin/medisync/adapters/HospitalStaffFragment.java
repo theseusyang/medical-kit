@@ -18,8 +18,8 @@ public class HospitalStaffFragment extends ListFragment {
 		String[] values = new String[] { "Chefarzt: Otto Hermann",
 				"Oberarzt: Dieter Steinberger", "Oberarzt: Franziska Singen",
 				"Internist: Gunther Joachim",
-				"Assistentarzt: Patricia Charleroi", "Sorin Irimies",
-				"Wung Xiu", "Lynda Bauer", "Tod Toddson",
+				"Assistentarzt: Patricia Charleroi", "Assistentarzt: Wung Xiu",
+				"Assistentarzt: Lynda Bauer", "Assistentarzt: Tod Toddson",
 				"Assistentarzt: Betina Smith" };
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
 				android.R.layout.simple_list_item_1, values);

@@ -74,8 +74,8 @@ public class ListViewItemAnimations extends Activity {
 		mBackgroundContainer = (BackgroundContainer) findViewById(R.id.listViewBackground);
 		mListView = (ListView) findViewById(R.id.listview);
 		final ArrayList<String> cheeseList = new ArrayList<String>();
-		for (int i = 0; i < Cheeses.sCheeseStrings.length; ++i) {
-			cheeseList.add(Cheeses.sCheeseStrings[i]);
+		for (int i = 0; i < PersonelArray.sCheeseStrings.length; ++i) {
+			cheeseList.add(PersonelArray.sCheeseStrings[i]);
 		}
 		mAdapter = new StableArrayAdapter(this, R.layout.opaque_text_view,
 				cheeseList, mTouchListener);

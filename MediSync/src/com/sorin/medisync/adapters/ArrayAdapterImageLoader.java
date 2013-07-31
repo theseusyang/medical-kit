@@ -3,7 +3,9 @@ package com.sorin.medisync.adapters;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.ArrayList;
 
+import android.content.ClipData.Item;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -57,11 +59,14 @@ public class ArrayAdapterImageLoader extends AsyncTaskLoader<Bitmap> {
 	@Override
 	public Bitmap loadInBackground() {
 		URL url = null;
+		ArrayList<Item> imageList = new ArrayList<Item>();
+
 		Bitmap bitmap = null;
 		HttpURLConnection http = null;
 		try {
 			url = new URL(getContext().getString(R.string.image_base_url,
 					density, name));
+
 			URLConnection conn = url.openConnection();
 			if (conn instanceof HttpURLConnection) {
 				http = (HttpURLConnection) conn;

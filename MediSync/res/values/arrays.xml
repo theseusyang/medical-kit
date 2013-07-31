@@ -3,17 +3,17 @@
 
     <!-- The following array list will encapsulate all fragment views of the items in the drawer layout list -->
     <string-array name="nav_classes">
-        <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
-        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.StartupFragment</item>
+        <item>com.sorin.medisync.adapters.PatientListFragment</item>
         <item>com.sorin.medisync.adapters.HospitalStaffFragment</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
+        <item>com.sorin.medisync.adapters.ViewPagerFragment2</item>
         <item>com.sorin.medisync.adapters.ViewPagerFragment4</item>
         <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
         <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
         <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
         <item>com.sorin.medisync.adapters.ArrayAdapterStringFragment</item>
         <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
-        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
         <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
         <item>com.sorin.medisync.adapters.EndoscopeFragment</item>
         <item>com.sorin.medisync.pulse.PulseFragment</item>

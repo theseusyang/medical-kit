@@ -5,5 +5,10 @@
         android:icon="@android:drawable/ic_menu_add"
         android:showAsAction="always"
         android:title="@string/action_add"/>
+     <item
+        android:id="@+id/delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="always"
+        android:title="@string/action_add"/>
 
 </menu>

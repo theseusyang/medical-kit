@@ -1,7 +1,5 @@
 package com.sorin.medisync.adapters;
 
-import com.sorin.medisync.R;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -15,9 +13,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.sorin.medisync.R;
+
 public class ViewPagerFragment2 extends Fragment {
-	private static String[] titles = new String[] { "Page 1", "Page 2",
-			"Page 3", "Page 4", "Page 5" };
+	private static String[] titles = new String[] { "X-Ray Sample 1",
+			"X-Ray Sample 2", "X-Ray Sample 3", "X-Ray Sample 4",
+			"X-Ray Sample 5" };
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,

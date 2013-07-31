@@ -35,7 +35,7 @@ public class CursorAdapterFragment extends ListFragment implements
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		setHasOptionsMenu(true);
-		return inflater.inflate(R.layout.list_view, container, false);
+		return inflater.inflate(R.layout.listview, container, false);
 	}
 
 	@Override
@@ -91,7 +91,9 @@ public class CursorAdapterFragment extends ListFragment implements
 
 	@Override
 	public boolean onOptionsItemSelected(final MenuItem item) {
-		if (item.getItemId() == R.id.add) {
+		switch (item.getItemId()) {
+		case R.id.add:
+			// checking if count has reached the end
 			int count = getListAdapter().getCount();
 			if (count < CounterHelper.MAX_ROWS) {
 				item.setEnabled(false);
@@ -104,15 +106,43 @@ public class CursorAdapterFragment extends ListFragment implements
 						super.onInsertComplete(token, cookie, uri);
 					}
 				};
+				// adding an item from db
 				ContentValues values = new ContentValues();
 				values.put(CounterHelper.COLUMN_TEXT,
 						CounterHelper.NUMBERS[count]);
 				queryHandler.startInsert(0, null,
 						CounterContentProvider.CONTENT_URI, values);
-			} else {
-				getActivity().invalidateOptionsMenu();
+
 			}
+			return true;
+		case R.id.delete:
+
+			// checking if count has reached the end
+			int count1 = getListAdapter().getCount();
+			if (count1 < CounterHelper.MAX_ROWS) {
+				item.setEnabled(false);
+				AsyncQueryHandler queryHandler = new AsyncQueryHandler(
+						getActivity().getContentResolver()) {
+					@Override
+					protected void onInsertComplete(int token, Object cookie,
+							Uri uri) {
+						getActivity().invalidateOptionsMenu();
+						super.onInsertComplete(token, cookie, uri);
+					}
+				};
+				// deleting an item from db
+				ContentValues values = new ContentValues();
+				CursorAdapterFragment adapter = new CursorAdapterFragment();
+				values.remove(CounterHelper.COLUMN_TEXT);
+				queryHandler.startDelete(0, values,
+						CounterContentProvider.CONTENT_URI, null, null);
+				adapter.notify();
+			}
+			return true;
+		default:
+			break;
 		}
 		return super.onOptionsItemSelected(item);
+
 	}
 }
