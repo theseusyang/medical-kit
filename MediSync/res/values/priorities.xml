@@ -2,11 +2,11 @@
 <resources>
 
     <string-array name="priorities">
+        <item>Note</item>
         <item>Reminder</item>
-         <item>Reminder</item>
-          <item>Moderate</item>
-           <item>Urgent</item>
+        <item>Moderate</item>
+        <item>Urgent</item>
         <item>Emergency</item>
     </string-array>
 
-</resources> 
+</resources>
