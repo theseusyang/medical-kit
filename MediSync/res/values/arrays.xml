@@ -6,7 +6,7 @@
         <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
         <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
         <item>com.sorin.medisync.adapters.HospitalStaffFragment</item>
-        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
+        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
         <item>com.sorin.medisync.adapters.ViewPagerFragment4</item>
         <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
         <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
