@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_print"
+        android:icon="@drawable/action_print"
+        android:showAsAction="always"
+        android:title="Print"/>
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/action_map"
+        android:showAsAction="always"
+        android:title="Map"/>
+    <item
+        android:id="@+id/action_bt"
+        android:icon="@drawable/action_bluetooth"
+        android:showAsAction="never"
+        android:title="Bluetooth"/>
+    <item
+        android:id="@+id/action_qrscan"
+        android:icon="@drawable/action_qrscan"
+        android:showAsAction="always"
+        android:title="@string/action_scan_qr_code"/>
+    <item
+        android:id="@+id/action_filepicker_save"
+        android:icon="@drawable/action_filepicker_save"
+        android:showAsAction="never"
+        android:title="@string/action_save_image"/>
+    <item
+        android:id="@+id/action_filepicker_view"
+        android:icon="@android:drawable/ic_menu_view"
+        android:showAsAction="never"
+        android:title="@string/action_view_image"/>
+    <item
+        android:id="@+id/action_patient_profile"
+        android:icon="@drawable/action_search"
+        android:showAsAction="always"
+        android:title="@string/action_view_patient_profile"/>
+    <item
+        android:id="@+id/action_list_animation"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="ListAnimation"/>
+
+</menu>
