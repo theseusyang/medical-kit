@@ -23,12 +23,12 @@
     <item
         android:id="@+id/action_filepicker_save"
         android:icon="@drawable/action_filepicker_save"
-        android:showAsAction="always"
+        android:showAsAction="never"
         android:title="@string/action_save_image"/>
     <item
         android:id="@+id/action_filepicker_view"
         android:icon="@android:drawable/ic_menu_view"
-        android:showAsAction="always"
+        android:showAsAction="never"
         android:title="@string/action_view_image"/>
     <item
         android:id="@+id/action_note"
@@ -36,7 +36,8 @@
         android:showAsAction="always"/>
     <item
         android:id="@+id/action_list_animation"
-        android:showAsAction="never"/>
+        android:showAsAction="never"
+        android:title="List Animation Example"/>
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

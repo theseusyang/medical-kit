@@ -45,7 +45,7 @@ public class FilepickerSaver extends Activity {
 			public void onClick(View v) {
 				Intent intent = new Intent(FilePicker.SAVE_CONTENT, myUrl,
 						FilepickerSaver.this, FilePicker.class);
-				intent.putExtra("extension", ".jpg");
+				intent.putExtra("extension", ".csv");
 				startActivityForResult(intent, 22);
 
 			}

@@ -395,6 +395,10 @@ public class MainActivity extends FragmentActivity {
 			if (item6 != null) {
 				item6.setVisible(!drawerLayout.isDrawerOpen(navList));
 			}
+			MenuItem item7 = menu.findItem(R.id.action_qrscan);
+			if (item7 != null) {
+				item7.setVisible(!drawerLayout.isDrawerOpen(navList));
+			}
 		}
 		return super.onPrepareOptionsMenu(menu);
 	}

@@ -3,32 +3,32 @@
 
     <!-- The following array list will encapsulate all fragment views of the items in the drawer layout list -->
     <string-array name="nav_classes">
-        <item>com.sorin.medisync.adapters.StartupFragment</item>
-        <item>com.sorin.medisync.adapters.PatientListFragment</item>
-        <item>com.sorin.medisync.adapters.HospitalStaffFragment</item>
-        <item>com.sorin.medisync.adapters.ViewPagerFragment2</item>
-        <item>com.sorin.medisync.adapters.ViewPagerFragment4</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
-        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
-        <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterStringFragment</item>
-        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
-        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
-        <item>com.sorin.medisync.adapters.EndoscopeFragment</item>
-        <item>com.sorin.medisync.pulse.PulseFragment</item>
-        <item>com.sorin.medisync.adapters.EndoscopeFragment</item>
-        <item>com.sorin.medisync.pulse.PulseFragment</item>
-        <item>com.sorin.medisync.adapters.PatientListFragment</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
-        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
-        <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterStringFragment</item>
-        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterObjectFragment</item>
-        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item>
-        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item>
-        <item>com.sorin.medisync.adapters.ViewPagerFragment</item>
+        <item>com.sorin.medisync.adapters.StartupFragment</item> <!-- Data -->
+        <item>com.sorin.medisync.adapters.PatientListFragment</item> <!-- Patient Profile -->
+        <item>com.sorin.medisync.adapters.HospitalStaffFragment</item> <!-- Hospital Staff -->
+        <item>com.sorin.medisync.adapters.ViewPagerFragment2</item> <!-- Imagery -->
+        <item>com.sorin.medisync.adapters.ViewPagerFragment4</item> <!-- Lab results -->
+        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item> <!-- Medical Supplies -->
+        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item> <!-- Hospital forms -->
+        <item>com.sorin.medisync.adapters.ViewPagerFragment</item> <!-- Prescriptions -->
+        <item>com.sorin.medisync.adapters.ArrayAdapterStringFragment</item> <!-- Illness Index -->
+        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item> <!-- Drugs Index -->
+        <item>com.sorin.medisync.adapters.HospitalMapFragment</item> <!-- Hospital Map -->
+        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item> <!-- TOOLS -->
+        <item>com.sorin.medisync.adapters.EndoscopeFragment</item> <!-- ECG -->
+        <item>com.sorin.medisync.pulse.PulseFragment</item> <!-- Pulse -->
+        <item>com.sorin.medisync.adapters.EndoscopeFragment</item> <!-- Endoscope -->
+        <item>com.sorin.medisync.pulse.PulseFragment</item> <!-- Blood Presure -->
+        <item>com.sorin.medisync.adapters.PatientListFragment</item> <!-- Body Temperature -->
+        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item> <!-- Radiation Levels -->
+        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item> <!-- Biohazard alerts -->
+        <item>com.sorin.medisync.adapters.ViewPagerFragment</item> <!-- Movement logger -->
+        <item>com.sorin.medisync.adapters.ArrayAdapterStringFragment</item> <!-- Emergency -->
+        <item>com.sorin.medisync.adapters.SimpleAdapterFragment</item> <!-- Call Ambulance -->
+        <item>com.sorin.medisync.adapters.ArrayAdapterObjectFragment</item> <!-- Call Helicopter -->
+        <item>com.sorin.medisync.adapters.ArrayAdapterImageFragment</item> <!-- Call nurse -->
+        <item>com.sorin.medisync.adapters.CursorAdapterFragment</item> <!-- Call Doctor -->
+        <item>com.sorin.medisync.adapters.ViewPagerFragment</item> <!-- Data -->
     </string-array>
 
     <!-- The following array list will encapsulate all names of the items in the listview -->

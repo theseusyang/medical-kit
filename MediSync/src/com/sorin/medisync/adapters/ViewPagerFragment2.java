@@ -27,7 +27,7 @@ public class ViewPagerFragment2 extends Fragment {
 		ViewPager viewPager1 = (ViewPager) view.findViewById(R.id.viewpager1);
 		ViewPager viewPager2 = (ViewPager) view.findViewById(R.id.viewpager2);
 
-		viewPager1.setAdapter(new MyPagerAdapter());
+		viewPager1.setAdapter(new MyFragmentPagerAdapter(getFragmentManager()));
 		viewPager2.setAdapter(new MyFragmentPagerAdapter(getFragmentManager()));
 
 		return view;

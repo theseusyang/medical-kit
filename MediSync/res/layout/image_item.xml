@@ -19,6 +19,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:src="@drawable/xray_chest" />
+        android:src="@drawable/xray_linux" />
 
 </RelativeLayout>
