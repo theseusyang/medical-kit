@@ -496,7 +496,7 @@ containing a value of this type.
         public static final int list_view_row_header=0x7f030011;
         public static final int listview=0x7f030012;
         public static final int main=0x7f030013;
-        public static final int map_info=0x7f030014;
+        public static final int map_fragment=0x7f030014;
         public static final int map_view=0x7f030015;
         public static final int medisync_main=0x7f030016;
         public static final int message=0x7f030017;

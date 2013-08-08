@@ -116,7 +116,7 @@ public class InfoMapActivity extends FragmentActivity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.map_info);
+		setContentView(R.layout.map_fragment);
 
 		// Get handles to the UI view objects
 		mLatLng = (TextView) findViewById(R.id.lat_lng);

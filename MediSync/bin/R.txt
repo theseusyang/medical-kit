@@ -317,7 +317,7 @@ int layout list_view_row 0x7f030010
 int layout list_view_row_header 0x7f030011
 int layout listview 0x7f030012
 int layout main 0x7f030013
-int layout map_info 0x7f030014
+int layout map_fragment 0x7f030014
 int layout map_view 0x7f030015
 int layout medisync_main 0x7f030016
 int layout message 0x7f030017
