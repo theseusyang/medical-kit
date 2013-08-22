@@ -27,7 +27,6 @@ import android.widget.Toast;
 
 import com.sorin.medisync.R;
 import com.sorin.medisync.adapters.ShakeDetectorActivity.OnShakeListener;
-import com.sorin.medisync.animation.ListViewItemAnimations;
 import com.sorin.medisync.bt.DeviceListActivity;
 import com.sorin.medisync.data.ListViewAdapter;
 import com.sorin.medisync.data.ListViewItemModel;
@@ -36,6 +35,7 @@ import com.sorin.medisync.filepickerio.FilepickerSaver;
 import com.sorin.medisync.filepickerio.FilepickerViewer;
 import com.sorin.medisync.map.InfoMapActivity;
 import com.sorin.medisync.qr.IntentIntegratorQR;
+import com.sorin.mediync.volley.PatientListView;
 
 public class MainActivity extends FragmentActivity {
 
@@ -177,7 +177,7 @@ public class MainActivity extends FragmentActivity {
 
 	@Override
 	protected void onResumeFragments() {
-		// TODO Auto-generated method stub
+
 		super.onResumeFragments();
 		updateContent();
 	}
@@ -331,7 +331,7 @@ public class MainActivity extends FragmentActivity {
 			return true;
 		case R.id.action_list_animation:
 
-			startActivity(new Intent(this, ListViewItemAnimations.class));
+			startActivity(new Intent(this, PatientListView.class));
 
 			return true;
 		case R.id.action_map:
@@ -341,8 +341,7 @@ public class MainActivity extends FragmentActivity {
 			return true;
 		case R.id.action_note:
 			startActivity(new Intent(this, PatientsProfileDBActivity.class));
-			Toast.makeText(this, "View patient profile", Toast.LENGTH_SHORT)
-					.show();
+			Toast.makeText(this, "View Task List", Toast.LENGTH_SHORT).show();
 			return true;
 		case R.id.action_bt:
 

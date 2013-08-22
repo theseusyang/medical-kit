@@ -25,23 +25,23 @@ public final class R {
     public static final class array {
         /**  The following array list will encapsulate all names of the items in the listview 
          */
-        public static final int all_list_item_titles=0x7f0a0001;
-        public static final int data_menu_icons=0x7f0a0005;
-        public static final int emergency_menu_icons=0x7f0a0007;
-        public static final int imagery_icons=0x7f0a0008;
+        public static final int all_list_item_titles=0x7f0b0001;
+        public static final int data_menu_icons=0x7f0b0005;
+        public static final int emergency_menu_icons=0x7f0b0007;
+        public static final int imagery_icons=0x7f0b0008;
         /**  List views 
          */
-        public static final int menu_data=0x7f0a0002;
-        public static final int menu_emergency=0x7f0a0004;
-        public static final int menu_tools=0x7f0a0003;
+        public static final int menu_data=0x7f0b0002;
+        public static final int menu_emergency=0x7f0b0004;
+        public static final int menu_tools=0x7f0b0003;
         /**  The following array list will encapsulate all fragment views of the items in the drawer layout list 
  Data 
          */
-        public static final int nav_classes=0x7f0a0000;
-        public static final int patients_icons=0x7f0a0009;
-        public static final int priorities=0x7f0a000a;
-        public static final int tools_menu_icons=0x7f0a0006;
-        public static final int video_resolution=0x7f0a000b;
+        public static final int nav_classes=0x7f0b0000;
+        public static final int patients_icons=0x7f0b0009;
+        public static final int priorities=0x7f0b000a;
+        public static final int tools_menu_icons=0x7f0b0006;
+        public static final int video_resolution=0x7f0b000b;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -205,22 +205,22 @@ containing a value of this type.
         public static final int zOrderOnTop=0x7f01000d;
     }
     public static final class color {
-        public static final int black_overlay=0x7f08000a;
-        public static final int common_action_bar_splitter=0x7f080009;
+        public static final int black_overlay=0x7f06000a;
+        public static final int common_action_bar_splitter=0x7f060009;
         /**  Sign-in Button Colors 
          */
-        public static final int common_signin_btn_dark_text_default=0x7f080000;
-        public static final int common_signin_btn_dark_text_disabled=0x7f080002;
-        public static final int common_signin_btn_dark_text_focused=0x7f080003;
-        public static final int common_signin_btn_dark_text_pressed=0x7f080001;
-        public static final int common_signin_btn_default_background=0x7f080008;
-        public static final int common_signin_btn_light_text_default=0x7f080004;
-        public static final int common_signin_btn_light_text_disabled=0x7f080006;
-        public static final int common_signin_btn_light_text_focused=0x7f080007;
-        public static final int common_signin_btn_light_text_pressed=0x7f080005;
-        public static final int common_signin_btn_text_dark=0x7f08000c;
-        public static final int common_signin_btn_text_light=0x7f08000d;
-        public static final int pressed_medisync=0x7f08000b;
+        public static final int common_signin_btn_dark_text_default=0x7f060000;
+        public static final int common_signin_btn_dark_text_disabled=0x7f060002;
+        public static final int common_signin_btn_dark_text_focused=0x7f060003;
+        public static final int common_signin_btn_dark_text_pressed=0x7f060001;
+        public static final int common_signin_btn_default_background=0x7f060008;
+        public static final int common_signin_btn_light_text_default=0x7f060004;
+        public static final int common_signin_btn_light_text_disabled=0x7f060006;
+        public static final int common_signin_btn_light_text_focused=0x7f060007;
+        public static final int common_signin_btn_light_text_pressed=0x7f060005;
+        public static final int common_signin_btn_text_dark=0x7f06000c;
+        public static final int common_signin_btn_text_light=0x7f06000d;
+        public static final int pressed_medisync=0x7f06000b;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -229,12 +229,12 @@ containing a value of this type.
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f050003;
-        public static final int activity_vertical_margin=0x7f050004;
-        public static final int image_size=0x7f050005;
-        public static final int padding_large=0x7f050002;
-        public static final int padding_medium=0x7f050001;
-        public static final int padding_small=0x7f050000;
+        public static final int activity_horizontal_margin=0x7f090003;
+        public static final int activity_vertical_margin=0x7f090004;
+        public static final int image_size=0x7f090005;
+        public static final int padding_large=0x7f090002;
+        public static final int padding_medium=0x7f090001;
+        public static final int padding_small=0x7f090000;
     }
     public static final class drawable {
         public static final int ab_background_textured_medisync=0x7f020000;
@@ -288,480 +288,491 @@ containing a value of this type.
         public static final int common_signin_btn_text_pressed_light=0x7f020030;
         public static final int drawer_shadow=0x7f020031;
         public static final int emergency_room_hospital=0x7f020032;
-        public static final int footer=0x7f020033;
-        public static final int gdrive=0x7f020034;
-        public static final int glyphicons_008_film=0x7f020035;
-        public static final int glyphicons_011_camera=0x7f020036;
-        public static final int glyphicons_036_file=0x7f020037;
-        public static final int glyphicons_144_folder_open=0x7f020038;
-        public static final int glyphicons_154_show_big_thumbnails=0x7f020039;
-        public static final int glyphicons_361_dropbox=0x7f02003a;
-        public static final int glyphicons_366_picasa=0x7f02003b;
-        public static final int glyphicons_381_github=0x7f02003c;
-        public static final int glyphicons_390_facebook=0x7f02003d;
-        public static final int glyphicons_395_flickr=0x7f02003e;
-        public static final int glyphicons_399_email=0x7f02003f;
-        public static final int ic_action_search=0x7f020040;
-        public static final int ic_action_settings=0x7f020041;
-        public static final int ic_add_data=0x7f020042;
-        public static final int ic_analysis_kit=0x7f020043;
-        public static final int ic_biohazard_alerts=0x7f020044;
-        public static final int ic_blood_pressure=0x7f020045;
-        public static final int ic_blood_tests=0x7f020046;
-        public static final int ic_body_temperature=0x7f020047;
-        public static final int ic_call_ambulance=0x7f020048;
-        public static final int ic_call_doctor=0x7f020049;
-        public static final int ic_call_helicopter=0x7f02004a;
-        public static final int ic_call_nurse=0x7f02004b;
-        public static final int ic_drawer=0x7f02004c;
-        public static final int ic_drugs_index=0x7f02004d;
-        public static final int ic_ecg=0x7f02004e;
-        public static final int ic_hospital_forms_index=0x7f02004f;
-        public static final int ic_hospital_interactive_map=0x7f020050;
-        public static final int ic_hospital_staff=0x7f020051;
-        public static final int ic_illness_index=0x7f020052;
-        public static final int ic_ivbag_schedules=0x7f020053;
-        public static final int ic_lab_results=0x7f020054;
-        public static final int ic_launcher=0x7f020055;
-        public static final int ic_medical_supplies_index=0x7f020056;
-        public static final int ic_microscope_feed=0x7f020057;
-        public static final int ic_movement_logger=0x7f020058;
-        public static final int ic_patient_profile=0x7f020059;
-        public static final int ic_prescription_index=0x7f02005a;
-        public static final int ic_pulse=0x7f02005b;
-        public static final int ic_radiation_levels=0x7f02005c;
-        public static final int ic_save=0x7f02005d;
-        public static final int ic_wiki=0x7f02005e;
-        public static final int ic_xray_results=0x7f02005f;
-        public static final int instagram=0x7f020060;
-        public static final int list_focused_medisync=0x7f020061;
-        public static final int menu_dropdown_panel_medisync=0x7f020062;
-        public static final int pic_asian=0x7f020063;
-        public static final int pic_astronaut=0x7f020064;
-        public static final int pic_chef=0x7f020065;
-        public static final int pic_clown=0x7f020066;
-        public static final int pic_elvis64=0x7f020067;
-        public static final int pic_general=0x7f020068;
-        public static final int pic_harry64=0x7f020069;
-        public static final int pic_holmes64=0x7f02006a;
-        public static final int pic_monroe64=0x7f02006b;
-        public static final int pic_priest=0x7f02006c;
-        public static final int pic_serduchka64=0x7f02006d;
-        public static final int pic_termi64=0x7f02006e;
-        public static final int pressed_background_medisync=0x7f02006f;
-        public static final int progress_bg_medisync=0x7f020070;
-        public static final int progress_horizontal_medisync=0x7f020071;
-        public static final int progress_primary_medisync=0x7f020072;
-        public static final int progress_secondary_medisync=0x7f020073;
-        public static final int select=0x7f020074;
-        public static final int selectable_background_medisync=0x7f020075;
-        public static final int shadowed_background=0x7f020076;
-        public static final int spinner=0x7f020077;
-        public static final int spinner_ab_default_medisync=0x7f020078;
-        public static final int spinner_ab_disabled_medisync=0x7f020079;
-        public static final int spinner_ab_focused_medisync=0x7f02007a;
-        public static final int spinner_ab_pressed_medisync=0x7f02007b;
-        public static final int spinner_background_ab_medisync=0x7f02007c;
-        public static final int tab_indicator_ab_medisync=0x7f02007d;
-        public static final int tab_selected_focused_medisync=0x7f02007e;
-        public static final int tab_selected_medisync=0x7f02007f;
-        public static final int tab_selected_pressed_medisync=0x7f020080;
-        public static final int tab_unselected_focused_medisync=0x7f020081;
-        public static final int tab_unselected_medisync=0x7f020082;
-        public static final int tab_unselected_pressed_medisync=0x7f020083;
-        public static final int tv_background_with_divider=0x7f020084;
-        public static final int xray_chest=0x7f020085;
-        public static final int xray_foot=0x7f020086;
-        public static final int xray_linux=0x7f020087;
-        public static final int xray_skull=0x7f020088;
+        public static final int error_image=0x7f020033;
+        public static final int footer=0x7f020034;
+        public static final int gdrive=0x7f020035;
+        public static final int glyphicons_008_film=0x7f020036;
+        public static final int glyphicons_011_camera=0x7f020037;
+        public static final int glyphicons_036_file=0x7f020038;
+        public static final int glyphicons_144_folder_open=0x7f020039;
+        public static final int glyphicons_154_show_big_thumbnails=0x7f02003a;
+        public static final int glyphicons_361_dropbox=0x7f02003b;
+        public static final int glyphicons_366_picasa=0x7f02003c;
+        public static final int glyphicons_381_github=0x7f02003d;
+        public static final int glyphicons_390_facebook=0x7f02003e;
+        public static final int glyphicons_395_flickr=0x7f02003f;
+        public static final int glyphicons_399_email=0x7f020040;
+        public static final int ic_action_search=0x7f020041;
+        public static final int ic_action_settings=0x7f020042;
+        public static final int ic_add_data=0x7f020043;
+        public static final int ic_analysis_kit=0x7f020044;
+        public static final int ic_biohazard_alerts=0x7f020045;
+        public static final int ic_blood_pressure=0x7f020046;
+        public static final int ic_blood_tests=0x7f020047;
+        public static final int ic_body_temperature=0x7f020048;
+        public static final int ic_call_ambulance=0x7f020049;
+        public static final int ic_call_doctor=0x7f02004a;
+        public static final int ic_call_helicopter=0x7f02004b;
+        public static final int ic_call_nurse=0x7f02004c;
+        public static final int ic_drawer=0x7f02004d;
+        public static final int ic_drugs_index=0x7f02004e;
+        public static final int ic_ecg=0x7f02004f;
+        public static final int ic_hospital_forms_index=0x7f020050;
+        public static final int ic_hospital_interactive_map=0x7f020051;
+        public static final int ic_hospital_staff=0x7f020052;
+        public static final int ic_illness_index=0x7f020053;
+        public static final int ic_ivbag_schedules=0x7f020054;
+        public static final int ic_lab_results=0x7f020055;
+        public static final int ic_launcher=0x7f020056;
+        public static final int ic_medical_supplies_index=0x7f020057;
+        public static final int ic_microscope_feed=0x7f020058;
+        public static final int ic_movement_logger=0x7f020059;
+        public static final int ic_patient_profile=0x7f02005a;
+        public static final int ic_prescription_index=0x7f02005b;
+        public static final int ic_pulse=0x7f02005c;
+        public static final int ic_radiation_levels=0x7f02005d;
+        public static final int ic_save=0x7f02005e;
+        public static final int ic_wiki=0x7f02005f;
+        public static final int ic_xray_results=0x7f020060;
+        public static final int instagram=0x7f020061;
+        public static final int list_focused_medisync=0x7f020062;
+        public static final int menu_dropdown_panel_medisync=0x7f020063;
+        public static final int no_image=0x7f020064;
+        public static final int pic_asian=0x7f020065;
+        public static final int pic_astronaut=0x7f020066;
+        public static final int pic_chef=0x7f020067;
+        public static final int pic_clown=0x7f020068;
+        public static final int pic_elvis64=0x7f020069;
+        public static final int pic_general=0x7f02006a;
+        public static final int pic_harry64=0x7f02006b;
+        public static final int pic_holmes64=0x7f02006c;
+        public static final int pic_monroe64=0x7f02006d;
+        public static final int pic_priest=0x7f02006e;
+        public static final int pic_serduchka64=0x7f02006f;
+        public static final int pic_termi64=0x7f020070;
+        public static final int pressed_background_medisync=0x7f020071;
+        public static final int progress_bg_medisync=0x7f020072;
+        public static final int progress_horizontal_medisync=0x7f020073;
+        public static final int progress_primary_medisync=0x7f020074;
+        public static final int progress_secondary_medisync=0x7f020075;
+        public static final int select=0x7f020076;
+        public static final int selectable_background_medisync=0x7f020077;
+        public static final int shadowed_background=0x7f020078;
+        public static final int spinner=0x7f020079;
+        public static final int spinner_ab_default_medisync=0x7f02007a;
+        public static final int spinner_ab_disabled_medisync=0x7f02007b;
+        public static final int spinner_ab_focused_medisync=0x7f02007c;
+        public static final int spinner_ab_pressed_medisync=0x7f02007d;
+        public static final int spinner_background_ab_medisync=0x7f02007e;
+        public static final int tab_indicator_ab_medisync=0x7f02007f;
+        public static final int tab_selected_focused_medisync=0x7f020080;
+        public static final int tab_selected_medisync=0x7f020081;
+        public static final int tab_selected_pressed_medisync=0x7f020082;
+        public static final int tab_unselected_focused_medisync=0x7f020083;
+        public static final int tab_unselected_medisync=0x7f020084;
+        public static final int tab_unselected_pressed_medisync=0x7f020085;
+        public static final int tv_background_with_divider=0x7f020086;
+        public static final int xray_chest=0x7f020087;
+        public static final int xray_foot=0x7f020088;
+        public static final int xray_linux=0x7f020089;
+        public static final int xray_skull=0x7f02008a;
     }
     public static final class id {
-        public static final int LinearLayout01=0x7f09003d;
-        public static final int TextView01=0x7f090046;
-        public static final int action_bt=0x7f090056;
-        public static final int action_filepicker_save=0x7f090058;
-        public static final int action_filepicker_view=0x7f090059;
-        public static final int action_get_address=0x7f09005e;
-        public static final int action_get_location=0x7f09005d;
-        public static final int action_list_animation=0x7f09005b;
-        public static final int action_map=0x7f090055;
-        public static final int action_note=0x7f09005a;
-        public static final int action_patient_profile=0x7f090061;
-        public static final int action_print=0x7f090054;
-        public static final int action_qrscan=0x7f090057;
-        public static final int action_settings=0x7f09005c;
-        public static final int action_start_update=0x7f09005f;
-        public static final int action_stop_update=0x7f090060;
-        public static final int add=0x7f09004d;
-        public static final int add_fields=0x7f090041;
-        public static final int address=0x7f09002f;
-        public static final int address_progress=0x7f090036;
-        public static final int btnOff=0x7f09000f;
-        public static final int btnOn=0x7f090010;
-        public static final int btn_startup=0x7f090048;
-        public static final int button1=0x7f09000c;
-        public static final int button2=0x7f090025;
-        public static final int button_scan=0x7f09001f;
-        public static final int button_send=0x7f090014;
-        public static final int category=0x7f09003c;
-        public static final int connection=0x7f090050;
-        public static final int cp=0x7f090015;
-        public static final int delete=0x7f09004e;
-        public static final int desc=0x7f090044;
-        public static final int disconnect=0x7f090052;
-        public static final int discoverable=0x7f090053;
-        public static final int drawer=0x7f09003b;
-        public static final int drawer_layout=0x7f090039;
-        public static final int editText1=0x7f09000a;
-        public static final int edittext_out=0x7f090013;
-        public static final int get_address_button=0x7f090034;
-        public static final int get_location_button=0x7f090033;
-        public static final int gridView1=0x7f090006;
-        public static final int hybrid=0x7f090004;
-        public static final int icon=0x7f090042;
-        public static final int imageView1=0x7f090024;
-        public static final int image_view_pager_2=0x7f090026;
-        public static final int insert=0x7f09004f;
-        public static final int label=0x7f090045;
-        public static final int label_address=0x7f090030;
-        public static final int label_lat_lng=0x7f09002e;
-        public static final int lat_lng=0x7f09002d;
-        public static final int linearLayout1=0x7f090009;
-        public static final int listView1=0x7f090005;
-        public static final int listViewBackground=0x7f09000d;
-        public static final int list_log=0x7f090012;
-        public static final int listview=0x7f09000e;
-        public static final int main=0x7f09003a;
-        public static final int main_layout=0x7f09002b;
-        public static final int map=0x7f09002c;
-        public static final int map2=0x7f090037;
-        public static final int map_view_id=0x7f090038;
-        public static final int menu_divider=0x7f09002a;
-        public static final int menurow_icon=0x7f090028;
-        public static final int menurow_title=0x7f090029;
-        public static final int new_devices=0x7f09001e;
-        public static final int none=0x7f090000;
-        public static final int normal=0x7f090001;
-        public static final int ns_menu_row=0x7f090027;
-        public static final int paired_devices=0x7f09001c;
-        public static final int progressBar1=0x7f090007;
-        public static final int pulse_graph=0x7f090016;
-        public static final int pulse_image=0x7f090018;
-        public static final int pulse_value=0x7f090017;
-        public static final int resolution=0x7f090022;
-        public static final int satellite=0x7f090002;
-        public static final int scan_connect=0x7f090051;
-        public static final int seekBar1=0x7f090021;
-        public static final int seekBar2=0x7f090023;
-        public static final int terrain=0x7f090003;
-        public static final int textView1=0x7f09000b;
-        public static final int text_connection_state=0x7f090035;
-        public static final int text_connection_status=0x7f090032;
-        public static final int title=0x7f090043;
-        public static final int title_left_text=0x7f090019;
-        public static final int title_new_devices=0x7f09001d;
-        public static final int title_paired_devices=0x7f09001b;
-        public static final int title_right_text=0x7f09001a;
-        public static final int todo_edit_button=0x7f090040;
-        public static final int todo_edit_description=0x7f09003f;
-        public static final int todo_edit_summary=0x7f09003e;
-        public static final int togglebutton=0x7f090031;
-        public static final int txtArduino=0x7f090011;
-        public static final int viewpager1=0x7f090049;
-        public static final int viewpager2=0x7f09004a;
-        public static final int viewpager3=0x7f09004b;
-        public static final int viewpager4=0x7f09004c;
-        public static final int webView1=0x7f090008;
-        public static final int webcam=0x7f090020;
-        public static final int webview=0x7f090047;
+        public static final int LinearLayout01=0x7f070041;
+        public static final int TextView01=0x7f07004a;
+        public static final int action_bt=0x7f07005a;
+        public static final int action_filepicker_save=0x7f07005c;
+        public static final int action_filepicker_view=0x7f07005d;
+        public static final int action_get_address=0x7f070062;
+        public static final int action_get_location=0x7f070061;
+        public static final int action_list_animation=0x7f07005f;
+        public static final int action_map=0x7f070059;
+        public static final int action_note=0x7f07005e;
+        public static final int action_patient_profile=0x7f070065;
+        public static final int action_print=0x7f070058;
+        public static final int action_qrscan=0x7f07005b;
+        public static final int action_settings=0x7f070060;
+        public static final int action_start_update=0x7f070063;
+        public static final int action_stop_update=0x7f070064;
+        public static final int add=0x7f070051;
+        public static final int add_fields=0x7f070045;
+        public static final int address=0x7f070033;
+        public static final int address_progress=0x7f07003a;
+        public static final int btnOff=0x7f070011;
+        public static final int btnOn=0x7f070012;
+        public static final int btn_startup=0x7f07004c;
+        public static final int button1=0x7f07000e;
+        public static final int button2=0x7f070027;
+        public static final int button_scan=0x7f070021;
+        public static final int button_send=0x7f070016;
+        public static final int category=0x7f070040;
+        public static final int connection=0x7f070054;
+        public static final int cp=0x7f070017;
+        public static final int delete=0x7f070052;
+        public static final int desc=0x7f070048;
+        public static final int disconnect=0x7f070056;
+        public static final int discoverable=0x7f070057;
+        public static final int drawer=0x7f07003f;
+        public static final int drawer_layout=0x7f07003d;
+        public static final int editText1=0x7f07000c;
+        public static final int edittext_out=0x7f070015;
+        public static final int get_address_button=0x7f070038;
+        public static final int get_location_button=0x7f070037;
+        public static final int gridView1=0x7f070008;
+        public static final int hybrid=0x7f070004;
+        public static final int icon=0x7f070046;
+        public static final int id_holder=0x7f070005;
+        public static final int imageView1=0x7f070026;
+        public static final int image_view_pager_2=0x7f070028;
+        public static final int insert=0x7f070053;
+        public static final int iv_thumb=0x7f07002d;
+        public static final int label=0x7f070049;
+        public static final int label_address=0x7f070034;
+        public static final int label_lat_lng=0x7f070032;
+        public static final int lat_lng=0x7f070031;
+        public static final int linearLayout1=0x7f07000b;
+        public static final int listView1=0x7f070007;
+        public static final int listViewBackground=0x7f07000f;
+        public static final int list_log=0x7f070014;
+        public static final int listview=0x7f070010;
+        public static final int lv_picasa=0x7f070006;
+        public static final int main=0x7f07003e;
+        public static final int main_layout=0x7f07002f;
+        public static final int map=0x7f070030;
+        public static final int map2=0x7f07003b;
+        public static final int map_view_id=0x7f07003c;
+        public static final int menu_divider=0x7f07002c;
+        public static final int menurow_icon=0x7f07002a;
+        public static final int menurow_title=0x7f07002b;
+        public static final int new_devices=0x7f070020;
+        public static final int none=0x7f070000;
+        public static final int normal=0x7f070001;
+        public static final int ns_menu_row=0x7f070029;
+        public static final int paired_devices=0x7f07001e;
+        public static final int progressBar1=0x7f070009;
+        public static final int pulse_graph=0x7f070018;
+        public static final int pulse_image=0x7f07001a;
+        public static final int pulse_value=0x7f070019;
+        public static final int resolution=0x7f070024;
+        public static final int satellite=0x7f070002;
+        public static final int scan_connect=0x7f070055;
+        public static final int seekBar1=0x7f070023;
+        public static final int seekBar2=0x7f070025;
+        public static final int terrain=0x7f070003;
+        public static final int textView1=0x7f07000d;
+        public static final int text_connection_state=0x7f070039;
+        public static final int text_connection_status=0x7f070036;
+        public static final int title=0x7f070047;
+        public static final int title_left_text=0x7f07001b;
+        public static final int title_new_devices=0x7f07001f;
+        public static final int title_paired_devices=0x7f07001d;
+        public static final int title_right_text=0x7f07001c;
+        public static final int todo_edit_button=0x7f070044;
+        public static final int todo_edit_description=0x7f070043;
+        public static final int todo_edit_summary=0x7f070042;
+        public static final int togglebutton=0x7f070035;
+        public static final int tv_title=0x7f07002e;
+        public static final int txtArduino=0x7f070013;
+        public static final int viewpager1=0x7f07004d;
+        public static final int viewpager2=0x7f07004e;
+        public static final int viewpager3=0x7f07004f;
+        public static final int viewpager4=0x7f070050;
+        public static final int webView1=0x7f07000a;
+        public static final int webcam=0x7f070022;
+        public static final int webview=0x7f07004b;
     }
     public static final class layout {
-        public static final int activity_file_picker=0x7f030000;
-        public static final int activity_file_picker_auth=0x7f030001;
-        public static final int activity_file_picker_saveas=0x7f030002;
-        public static final int activity_list_view_item_animations=0x7f030003;
-        public static final int bt_arduino_main=0x7f030004;
-        public static final int bt_main=0x7f030005;
-        public static final int bt_pulse=0x7f030006;
-        public static final int custom_title=0x7f030007;
-        public static final int device_list=0x7f030008;
-        public static final int device_name=0x7f030009;
-        public static final int drawer_list_item=0x7f03000a;
-        public static final int endoscope=0x7f03000b;
-        public static final int filepicker_save=0x7f03000c;
-        public static final int filepicker_view=0x7f03000d;
-        public static final int image_item=0x7f03000e;
-        public static final int list_view=0x7f03000f;
-        public static final int list_view_row=0x7f030010;
-        public static final int list_view_row_header=0x7f030011;
-        public static final int listview=0x7f030012;
-        public static final int main=0x7f030013;
-        public static final int map_fragment=0x7f030014;
-        public static final int map_view=0x7f030015;
-        public static final int medisync_main=0x7f030016;
-        public static final int message=0x7f030017;
-        public static final int opaque_text_view=0x7f030018;
-        public static final int patient_edit=0x7f030019;
-        public static final int patient_item=0x7f03001a;
-        public static final int patient_list=0x7f03001b;
-        public static final int patient_row=0x7f03001c;
-        public static final int print_dialog=0x7f03001d;
-        public static final int startup=0x7f03001e;
-        public static final int viewpager_1=0x7f03001f;
-        public static final int viewpager_2=0x7f030020;
-        public static final int viewpager_3=0x7f030021;
-        public static final int viewpager_4=0x7f030022;
+        public static final int act__network_list_view=0x7f030000;
+        public static final int activity_file_picker=0x7f030001;
+        public static final int activity_file_picker_auth=0x7f030002;
+        public static final int activity_file_picker_saveas=0x7f030003;
+        public static final int activity_list_view_item_animations=0x7f030004;
+        public static final int bt_arduino_main=0x7f030005;
+        public static final int bt_main=0x7f030006;
+        public static final int bt_pulse=0x7f030007;
+        public static final int custom_title=0x7f030008;
+        public static final int device_list=0x7f030009;
+        public static final int device_name=0x7f03000a;
+        public static final int drawer_list_item=0x7f03000b;
+        public static final int endoscope=0x7f03000c;
+        public static final int filepicker_save=0x7f03000d;
+        public static final int filepicker_view=0x7f03000e;
+        public static final int image_item=0x7f03000f;
+        public static final int list_view=0x7f030010;
+        public static final int list_view_row=0x7f030011;
+        public static final int list_view_row_header=0x7f030012;
+        public static final int listview=0x7f030013;
+        public static final int lv_picasa_row=0x7f030014;
+        public static final int main=0x7f030015;
+        public static final int map_fragment=0x7f030016;
+        public static final int map_view=0x7f030017;
+        public static final int medisync_main=0x7f030018;
+        public static final int message=0x7f030019;
+        public static final int opaque_text_view=0x7f03001a;
+        public static final int patient_edit=0x7f03001b;
+        public static final int patient_item=0x7f03001c;
+        public static final int patient_list=0x7f03001d;
+        public static final int patient_row=0x7f03001e;
+        public static final int print_dialog=0x7f03001f;
+        public static final int startup=0x7f030020;
+        public static final int viewpager_1=0x7f030021;
+        public static final int viewpager_2=0x7f030022;
+        public static final int viewpager_3=0x7f030023;
+        public static final int viewpager_4=0x7f030024;
     }
     public static final class menu {
-        public static final int cursor_menu=0x7f0b0000;
-        public static final int listmenu=0x7f0b0001;
-        public static final int main_activity=0x7f0b0002;
-        public static final int main_menu=0x7f0b0003;
-        public static final int map_menu=0x7f0b0004;
-        public static final int patient_menu=0x7f0b0005;
+        public static final int cursor_menu=0x7f0c0000;
+        public static final int listmenu=0x7f0c0001;
+        public static final int main_activity=0x7f0c0002;
+        public static final int main_menu=0x7f0c0003;
+        public static final int map_menu=0x7f0c0004;
+        public static final int patient_menu=0x7f0c0005;
+    }
+    public static final class raw {
+        public static final int test=0x7f050000;
     }
     public static final class string {
-        public static final int IO_Exception_getFromLocation=0x7f060076;
-        public static final int action_add=0x7f06002b;
+        public static final int IO_Exception_getFromLocation=0x7f080076;
+        public static final int action_add=0x7f08002b;
         /**  drawable list string naming stop 
  action buttons 
          */
-        public static final int action_save=0x7f060049;
-        public static final int action_save_image=0x7f06004b;
-        public static final int action_scan_qr_code=0x7f06004e;
+        public static final int action_save=0x7f080049;
+        public static final int action_save_image=0x7f08004b;
+        public static final int action_scan_qr_code=0x7f08004e;
         /**  Menu title 
          */
-        public static final int action_settings=0x7f06004a;
-        public static final int action_view_image=0x7f06004c;
-        public static final int action_view_patient_profile=0x7f06004d;
-        public static final int add_fields=0x7f060091;
-        public static final int address=0x7f06006d;
+        public static final int action_settings=0x7f08004a;
+        public static final int action_view_image=0x7f08004c;
+        public static final int action_view_patient_profile=0x7f08004d;
+        public static final int add_fields=0x7f080091;
+        public static final int address=0x7f08006d;
         /**  User interface labels and strings 
  Address format 
          */
-        public static final int address_output_string=0x7f06006a;
+        public static final int address_output_string=0x7f08006a;
         /**  map related  stuff 
          */
-        public static final int app_description=0x7f060069;
+        public static final int app_description=0x7f080069;
         /**  main app strings 
          */
-        public static final int app_name=0x7f060000;
-        public static final int app_start=0x7f06002f;
+        public static final int app_name=0x7f080015;
+        public static final int app_start=0x7f08002f;
         /**   Title for notification shown when GooglePlayServices needs to be
         enabled for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_needs_enabling_title=0x7f060015;
+        public static final int auth_client_needs_enabling_title=0x7f080010;
         /**   Title for notification shown when GooglePlayServices needs to be
         installed for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_needs_installation_title=0x7f060016;
+        public static final int auth_client_needs_installation_title=0x7f080011;
         /**   Title for notification shown when GooglePlayServices needs to be
         udpated for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_needs_update_title=0x7f060017;
+        public static final int auth_client_needs_update_title=0x7f080012;
         /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
          */
-        public static final int auth_client_play_services_err_notification_msg=0x7f060018;
+        public static final int auth_client_play_services_err_notification_msg=0x7f080013;
         /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
          */
-        public static final int auth_client_requested_by_msg=0x7f060019;
+        public static final int auth_client_requested_by_msg=0x7f080014;
         /**   Title for notification shown when a bad version of GooglePlayServices
         has been installed and needs correction for an application to work.
         [CHAR LIMIT=70] 
          */
-        public static final int auth_client_using_bad_version_title=0x7f060014;
-        public static final int bt_enabled=0x7f060053;
-        public static final int bt_not_available=0x7f060052;
-        public static final int bt_not_enabled_leaving=0x7f060054;
-        public static final int button_scan=0x7f060063;
-        public static final int button_send=0x7f060051;
-        public static final int close=0x7f06002d;
+        public static final int auth_client_using_bad_version_title=0x7f08000f;
+        public static final int bt_enabled=0x7f080053;
+        public static final int bt_not_available=0x7f080052;
+        public static final int bt_not_enabled_leaving=0x7f080054;
+        public static final int button_scan=0x7f080063;
+        public static final int button_send=0x7f080051;
+        public static final int close=0x7f08002d;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_enable_button=0x7f06000b;
+        public static final int common_google_play_services_enable_button=0x7f080006;
         /**  Message in confirmation dialog informing user they need to enable
         Google Play services in application settings [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_enable_text=0x7f06000a;
+        public static final int common_google_play_services_enable_text=0x7f080005;
         /**  Title of confirmation dialog informing user they need to enable
         Google Play services in application settings [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_enable_title=0x7f060009;
+        public static final int common_google_play_services_enable_title=0x7f080004;
         /**  Button in confirmation dialog for installing Google Play services [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_install_button=0x7f060008;
+        public static final int common_google_play_services_install_button=0x7f080003;
         /**  (For phones) Message in confirmation dialog informing user that
         they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_install_text_phone=0x7f060006;
+        public static final int common_google_play_services_install_text_phone=0x7f080001;
         /**  (For tablets) Message in confirmation dialog informing user that
         they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_install_text_tablet=0x7f060007;
+        public static final int common_google_play_services_install_text_tablet=0x7f080002;
         /**  Title of confirmation dialog informing user that they need to install
         Google Play services (from Play Store) [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_install_title=0x7f060005;
+        public static final int common_google_play_services_install_title=0x7f080000;
         /**  Message in confirmation dialog informing user there is an unknown issue in Google Play
         services [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_unknown_issue=0x7f06000e;
+        public static final int common_google_play_services_unknown_issue=0x7f080009;
         /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_unsupported_text=0x7f060010;
+        public static final int common_google_play_services_unsupported_text=0x7f08000b;
         /**  Title of confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_unsupported_title=0x7f06000f;
+        public static final int common_google_play_services_unsupported_title=0x7f08000a;
         /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_update_button=0x7f060011;
+        public static final int common_google_play_services_update_button=0x7f08000c;
         /**  Message in confirmation dialog informing user that they need to update
         Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_update_text=0x7f06000d;
+        public static final int common_google_play_services_update_text=0x7f080008;
         /**  Title of confirmation dialog informing user that they need to update
         Google Play services (from Play Store) [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_update_title=0x7f06000c;
+        public static final int common_google_play_services_update_title=0x7f080007;
         /**  Sign-in button text [CHAR LIMIT=15] 
          */
-        public static final int common_signin_button_text=0x7f060012;
+        public static final int common_signin_button_text=0x7f08000d;
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
-        public static final int common_signin_button_text_long=0x7f060013;
-        public static final int connect=0x7f060055;
+        public static final int common_signin_button_text_long=0x7f08000e;
+        public static final int connect=0x7f080055;
         /**  Messages 
          */
-        public static final int connected=0x7f060057;
-        public static final int connecting=0x7f060056;
+        public static final int connected=0x7f080057;
+        public static final int connecting=0x7f080056;
         /**  Options Menu 
          */
-        public static final int connection=0x7f060059;
-        public static final int connection_error_code=0x7f06001a;
-        public static final int connection_error_code_unknown=0x7f06006e;
-        public static final int connection_error_disabled=0x7f06001b;
-        public static final int connection_error_internal=0x7f06001c;
-        public static final int connection_error_invalid=0x7f06001d;
-        public static final int connection_error_invalid_account=0x7f06001e;
-        public static final int connection_error_license_check_failed=0x7f06001f;
-        public static final int connection_error_message=0x7f060020;
-        public static final int connection_error_misconfigured=0x7f060021;
-        public static final int connection_error_missing=0x7f060022;
-        public static final int connection_error_needs_resolution=0x7f060023;
-        public static final int connection_error_network=0x7f060024;
-        public static final int connection_error_outdated=0x7f060025;
-        public static final int connection_error_sign_in_required=0x7f060026;
-        public static final int connection_error_unknown=0x7f060027;
-        public static final int connection_failed=0x7f06006f;
-        public static final int disconnect=0x7f06005b;
-        public static final int disconnected=0x7f060070;
-        public static final int discoverable=0x7f06005c;
-        public static final int dummy_button=0x7f060067;
-        public static final int dummy_content=0x7f060068;
-        public static final int edittext_hint=0x7f060050;
-        public static final int empty=0x7f060029;
-        public static final int file_picker_animation_duration=0x7f060004;
-        public static final int get_address=0x7f060071;
-        public static final int get_location=0x7f060072;
+        public static final int connection=0x7f080059;
+        public static final int connection_error_code=0x7f08001a;
+        public static final int connection_error_code_unknown=0x7f08006e;
+        public static final int connection_error_disabled=0x7f08001b;
+        public static final int connection_error_internal=0x7f08001c;
+        public static final int connection_error_invalid=0x7f08001d;
+        public static final int connection_error_invalid_account=0x7f08001e;
+        public static final int connection_error_license_check_failed=0x7f08001f;
+        public static final int connection_error_message=0x7f080020;
+        public static final int connection_error_misconfigured=0x7f080021;
+        public static final int connection_error_missing=0x7f080022;
+        public static final int connection_error_needs_resolution=0x7f080023;
+        public static final int connection_error_network=0x7f080024;
+        public static final int connection_error_outdated=0x7f080025;
+        public static final int connection_error_sign_in_required=0x7f080026;
+        public static final int connection_error_unknown=0x7f080027;
+        public static final int connection_failed=0x7f08006f;
+        public static final int disconnect=0x7f08005b;
+        public static final int disconnected=0x7f080070;
+        public static final int discoverable=0x7f08005c;
+        public static final int dummy_button=0x7f080067;
+        public static final int dummy_content=0x7f080068;
+        public static final int edittext_hint=0x7f080050;
+        public static final int empty=0x7f080029;
+        public static final int file_picker_animation_duration=0x7f080019;
+        public static final int get_address=0x7f080071;
+        public static final int get_location=0x7f080072;
         /**  BluetoothChat 
          */
-        public static final int hello=0x7f06004f;
-        public static final int hello_blank_fragment=0x7f060064;
-        public static final int hello_world=0x7f060028;
-        public static final int illegal_argument_exception=0x7f060073;
-        public static final int image_base_url=0x7f06002a;
-        public static final int invalid_action=0x7f060074;
-        public static final int invalid_integer_id=0x7f060075;
+        public static final int hello=0x7f08004f;
+        public static final int hello_blank_fragment=0x7f080064;
+        public static final int hello_world=0x7f080028;
+        public static final int illegal_argument_exception=0x7f080073;
+        public static final int image_base_url=0x7f08002a;
+        public static final int invalid_action=0x7f080074;
+        public static final int invalid_integer_id=0x7f080075;
         /**  Latitude, longitude format 
          */
-        public static final int latitude_longitude=0x7f06006b;
+        public static final int latitude_longitude=0x7f08006b;
         /**  Labels 
          */
-        public static final int latlng=0x7f06006c;
-        public static final int location_requested=0x7f060077;
-        public static final int location_update_error=0x7f060079;
-        public static final int location_update_error_detail=0x7f06007a;
-        public static final int location_update_missing_update=0x7f06007b;
-        public static final int location_updated=0x7f060078;
-        public static final int location_updates_stopped=0x7f06007c;
-        public static final int log_new_location=0x7f06007d;
+        public static final int latlng=0x7f08006c;
+        public static final int location_requested=0x7f080077;
+        public static final int location_update_error=0x7f080079;
+        public static final int location_update_error_detail=0x7f08007a;
+        public static final int location_update_missing_update=0x7f08007b;
+        public static final int location_updated=0x7f080078;
+        public static final int location_updates_stopped=0x7f08007c;
+        public static final int log_new_location=0x7f08007d;
         /**  data menu 
          */
-        public static final int menu_data=0x7f060030;
-        public static final int menu_data_drugs_index=0x7f060039;
-        public static final int menu_data_hospital_forms_index=0x7f060036;
-        public static final int menu_data_hospital_interactive_map=0x7f06003a;
-        public static final int menu_data_hospital_staff=0x7f060032;
-        public static final int menu_data_illness_index=0x7f060038;
-        public static final int menu_data_lab_results=0x7f060034;
-        public static final int menu_data_medical_supplies_index=0x7f060035;
-        public static final int menu_data_patient_profile=0x7f060031;
-        public static final int menu_data_prescriptions_index=0x7f060037;
-        public static final int menu_data_xray_results=0x7f060033;
-        public static final int menu_delete=0x7f06008d;
+        public static final int menu_data=0x7f080030;
+        public static final int menu_data_drugs_index=0x7f080039;
+        public static final int menu_data_hospital_forms_index=0x7f080036;
+        public static final int menu_data_hospital_interactive_map=0x7f08003a;
+        public static final int menu_data_hospital_staff=0x7f080032;
+        public static final int menu_data_illness_index=0x7f080038;
+        public static final int menu_data_lab_results=0x7f080034;
+        public static final int menu_data_medical_supplies_index=0x7f080035;
+        public static final int menu_data_patient_profile=0x7f080031;
+        public static final int menu_data_prescriptions_index=0x7f080037;
+        public static final int menu_data_xray_results=0x7f080033;
+        public static final int menu_delete=0x7f08008d;
         /**  emergency menu 
          */
-        public static final int menu_emergency=0x7f060044;
-        public static final int menu_emergency_call_ambulance=0x7f060045;
-        public static final int menu_emergency_call_doctor=0x7f060048;
-        public static final int menu_emergency_call_helicopter=0x7f060046;
-        public static final int menu_emergency_call_nurse=0x7f060047;
-        public static final int menu_insert=0x7f06008c;
-        public static final int menu_settings=0x7f060001;
+        public static final int menu_emergency=0x7f080044;
+        public static final int menu_emergency_call_ambulance=0x7f080045;
+        public static final int menu_emergency_call_doctor=0x7f080048;
+        public static final int menu_emergency_call_helicopter=0x7f080046;
+        public static final int menu_emergency_call_nurse=0x7f080047;
+        public static final int menu_insert=0x7f08008c;
+        public static final int menu_settings=0x7f080016;
         /**  tools menu 
          */
-        public static final int menu_tools=0x7f06003b;
-        public static final int menu_tools_biohazard_alerts=0x7f060042;
-        public static final int menu_tools_blood_pressure=0x7f06003f;
-        public static final int menu_tools_ecg=0x7f06003c;
-        public static final int menu_tools_microscope_feed=0x7f06003e;
-        public static final int menu_tools_movement_log=0x7f060043;
-        public static final int menu_tools_pulse=0x7f06003d;
-        public static final int menu_tools_radiation_levels=0x7f060041;
-        public static final int menu_tools_temperature=0x7f060040;
-        public static final int no_address_found=0x7f06007e;
-        public static final int no_connection=0x7f06007f;
-        public static final int no_geocoder_available=0x7f060080;
-        public static final int no_location_available=0x7f060081;
+        public static final int menu_tools=0x7f08003b;
+        public static final int menu_tools_biohazard_alerts=0x7f080042;
+        public static final int menu_tools_blood_pressure=0x7f08003f;
+        public static final int menu_tools_ecg=0x7f08003c;
+        public static final int menu_tools_microscope_feed=0x7f08003e;
+        public static final int menu_tools_movement_log=0x7f080043;
+        public static final int menu_tools_pulse=0x7f08003d;
+        public static final int menu_tools_radiation_levels=0x7f080041;
+        public static final int menu_tools_temperature=0x7f080040;
+        public static final int no_address_found=0x7f08007e;
+        public static final int no_connection=0x7f08007f;
+        public static final int no_geocoder_available=0x7f080080;
+        public static final int no_location_available=0x7f080081;
         /**  patient profile db 
          */
-        public static final int no_patients=0x7f06008b;
-        public static final int no_resolution=0x7f060083;
-        public static final int none_found=0x7f060060;
-        public static final int none_paired=0x7f06005f;
-        public static final int not_connected=0x7f060058;
-        public static final int open=0x7f06002c;
-        public static final int patient_profile_confirm=0x7f060090;
-        public static final int patient_profile_description=0x7f06008e;
-        public static final int patient_profile_summary=0x7f06008f;
-        public static final int periodic_update_stop=0x7f060084;
-        public static final int play_services_available=0x7f060085;
-        public static final int pulse_measurement=0x7f060065;
-        public static final int request_location_updates_in_progress=0x7f060086;
-        public static final int resolved=0x7f060082;
-        public static final int scan_connect=0x7f06005a;
+        public static final int no_patients=0x7f08008b;
+        public static final int no_resolution=0x7f080083;
+        public static final int none_found=0x7f080060;
+        public static final int none_paired=0x7f08005f;
+        public static final int not_connected=0x7f080058;
+        public static final int open=0x7f08002c;
+        public static final int patient_profile_confirm=0x7f080090;
+        public static final int patient_profile_description=0x7f08008e;
+        public static final int patient_profile_summary=0x7f08008f;
+        public static final int periodic_update_stop=0x7f080084;
+        public static final int play_services_available=0x7f080085;
+        public static final int pulse_measurement=0x7f080065;
+        public static final int request_location_updates_in_progress=0x7f080086;
+        public static final int resolved=0x7f080082;
+        public static final int scan_connect=0x7f08005a;
         /**  DeviceListActivity 
          */
-        public static final int scanning=0x7f06005d;
-        public static final int select_device=0x7f06005e;
-        public static final int service_not_available=0x7f06002e;
-        public static final int start_updates=0x7f060087;
-        public static final int stop_updates=0x7f060088;
-        public static final int title_activity_file_picker=0x7f060002;
-        public static final int title_activity_file_picker_auth=0x7f060003;
-        public static final int title_activity_fullscreen=0x7f060066;
-        public static final int title_other_devices=0x7f060062;
-        public static final int title_paired_devices=0x7f060061;
-        public static final int unknown=0x7f060089;
-        public static final int unknown_activity_request_code=0x7f06008a;
+        public static final int scanning=0x7f08005d;
+        public static final int select_device=0x7f08005e;
+        public static final int service_not_available=0x7f08002e;
+        public static final int start_updates=0x7f080087;
+        public static final int stop_updates=0x7f080088;
+        public static final int title_activity_file_picker=0x7f080017;
+        public static final int title_activity_file_picker_auth=0x7f080018;
+        public static final int title_activity_fullscreen=0x7f080066;
+        public static final int title_other_devices=0x7f080062;
+        public static final int title_paired_devices=0x7f080061;
+        public static final int unknown=0x7f080089;
+        public static final int unknown_activity_request_code=0x7f08008a;
     }
     public static final class style {
-        public static final int ActionBar_Solid_Medisync=0x7f070007;
-        public static final int ActionBar_Transparent_Medisync=0x7f070008;
-        public static final int ActionBarTabStyle_Medisync=0x7f07000b;
-        public static final int ActionButton_CloseMode_Medisync=0x7f07000e;
+        public static final int ActionBar_Solid_Medisync=0x7f0a0007;
+        public static final int ActionBar_Transparent_Medisync=0x7f0a0008;
+        public static final int ActionBarTabStyle_Medisync=0x7f0a000b;
+        public static final int ActionButton_CloseMode_Medisync=0x7f0a000e;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -784,23 +795,23 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070001;
+        public static final int AppBaseTheme=0x7f0a0001;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070000;
-        public static final int ButtonBar=0x7f070003;
-        public static final int ButtonBarButton=0x7f070004;
-        public static final int DropDownListView_Medisync=0x7f07000a;
-        public static final int DropDownNav_Medisync=0x7f07000c;
-        public static final int FullscreenActionBarStyle=0x7f070005;
-        public static final int FullscreenTheme=0x7f070002;
-        public static final int PopupMenu_Medisync=0x7f070009;
-        public static final int ProgressBar_Medisync=0x7f07000d;
-        public static final int Theme_Medisync=0x7f070006;
+        public static final int AppTheme=0x7f0a0000;
+        public static final int ButtonBar=0x7f0a0003;
+        public static final int ButtonBarButton=0x7f0a0004;
+        public static final int DropDownListView_Medisync=0x7f0a000a;
+        public static final int DropDownNav_Medisync=0x7f0a000c;
+        public static final int FullscreenActionBarStyle=0x7f0a0005;
+        public static final int FullscreenTheme=0x7f0a0002;
+        public static final int PopupMenu_Medisync=0x7f0a0009;
+        public static final int ProgressBar_Medisync=0x7f0a000d;
+        public static final int Theme_Medisync=0x7f0a0006;
         /**  this style is only referenced in a Light.DarkActionBar based theme 
          */
-        public static final int Theme_Medisync_Widget=0x7f07000f;
+        public static final int Theme_Medisync_Widget=0x7f0a000f;
     }
     public static final class styleable {
         /** Attributes that can be used with a ButtonBarContainerTheme.

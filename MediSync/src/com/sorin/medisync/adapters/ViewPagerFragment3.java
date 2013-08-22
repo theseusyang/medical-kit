@@ -1,7 +1,5 @@
 package com.sorin.medisync.adapters;
 
-import com.sorin.medisync.R;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.sorin.medisync.R;
 
 public class ViewPagerFragment3 extends Fragment {
 	private Integer[] mImageIds = { R.drawable.xray_chest,
