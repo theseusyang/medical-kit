@@ -14,9 +14,9 @@ public final class R {
 		public static final int right_slide_out_back = 0x7f04000b;
 	}
 	public static final class dimen {
-		public static final int padding_large = 0x7f090002;
-		public static final int padding_medium = 0x7f090001;
-		public static final int padding_small = 0x7f090000;
+		public static final int padding_large = 0x7f0a000f;
+		public static final int padding_medium = 0x7f0a000e;
+		public static final int padding_small = 0x7f0a000d;
 	}
 	public static final class drawable {
 		public static final int footer = 0x7f020034;
@@ -39,14 +39,14 @@ public final class R {
 		public static final int spinner = 0x7f020079;
 	}
 	public static final class id {
-		public static final int button1 = 0x7f07000e;
-		public static final int editText1 = 0x7f07000c;
-		public static final int gridView1 = 0x7f070008;
-		public static final int linearLayout1 = 0x7f07000b;
-		public static final int listView1 = 0x7f070007;
-		public static final int progressBar1 = 0x7f070009;
-		public static final int textView1 = 0x7f07000d;
-		public static final int webView1 = 0x7f07000a;
+		public static final int button1 = 0x7f060012;
+		public static final int editText1 = 0x7f060010;
+		public static final int gridView1 = 0x7f06000c;
+		public static final int linearLayout1 = 0x7f06000f;
+		public static final int listView1 = 0x7f06000b;
+		public static final int progressBar1 = 0x7f06000d;
+		public static final int textView1 = 0x7f060011;
+		public static final int webView1 = 0x7f06000e;
 	}
 	public static final class layout {
 		public static final int activity_file_picker = 0x7f030001;
@@ -54,13 +54,13 @@ public final class R {
 		public static final int activity_file_picker_saveas = 0x7f030003;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f080015;
-		public static final int file_picker_animation_duration = 0x7f080019;
-		public static final int menu_settings = 0x7f080016;
-		public static final int title_activity_file_picker = 0x7f080017;
-		public static final int title_activity_file_picker_auth = 0x7f080018;
+		public static final int app_name = 0x7f0c0015;
+		public static final int file_picker_animation_duration = 0x7f0c0019;
+		public static final int menu_settings = 0x7f0c0016;
+		public static final int title_activity_file_picker = 0x7f0c0017;
+		public static final int title_activity_file_picker_auth = 0x7f0c0018;
 	}
 	public static final class style {
-		public static final int AppTheme = 0x7f0a0000;
+		public static final int AppTheme = 0x7f0b0005;
 	}
 }

@@ -33,9 +33,9 @@ import com.sorin.medisync.data.ListViewItemModel;
 import com.sorin.medisync.db.PatientsProfileDBActivity;
 import com.sorin.medisync.filepickerio.FilepickerSaver;
 import com.sorin.medisync.filepickerio.FilepickerViewer;
+import com.sorin.medisync.listviewdrag.ListViewDraggingAnimation;
 import com.sorin.medisync.map.InfoMapActivity;
 import com.sorin.medisync.qr.IntentIntegratorQR;
-import com.sorin.mediync.volley.PatientListView;
 
 public class MainActivity extends FragmentActivity {
 
@@ -331,7 +331,7 @@ public class MainActivity extends FragmentActivity {
 			return true;
 		case R.id.action_list_animation:
 
-			startActivity(new Intent(this, PatientListView.class));
+			startActivity(new Intent(this, ListViewDraggingAnimation.class));
 
 			return true;
 		case R.id.action_map:

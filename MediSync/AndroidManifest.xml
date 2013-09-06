@@ -41,6 +41,8 @@
         android:theme="@style/Theme.Medisync" >
         <activity android:name="com.sorin.medisync.animation.ListViewItemAnimations" >
         </activity>
+        <activity android:name="com.sorin.medisync.listviewdrag.ListViewDraggingAnimation" >
+        </activity>
         <!-- Bt activities -->
         <activity android:name="com.sorin.medisync.bt.BTSendActivity" >
         </activity>

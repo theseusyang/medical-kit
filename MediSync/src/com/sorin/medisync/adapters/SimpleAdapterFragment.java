@@ -15,14 +15,13 @@ import android.widget.SimpleAdapter;
 
 import com.sorin.medisync.R;
 
-public class SimpleAdapterFragment extends ListFragment
-{
-	private static final List<Map<String,String>> items = new ArrayList<Map<String,String>>();
+public class SimpleAdapterFragment extends ListFragment {
+	private static final List<Map<String, String>> items = new ArrayList<Map<String, String>>();
 	private static final String[] keys = { "line1", "line2" };
-	private static final int[] controlIds = { android.R.id.text1, android.R.id.text2 };
-	
-	static
-	{
+	private static final int[] controlIds = { android.R.id.text1,
+			android.R.id.text2 };
+
+	static {
 		Map<String, String> map = new HashMap<String, String>();
 		map.put("line1", "Title One");
 		map.put("line2", "Subtitle One");
@@ -44,18 +43,18 @@ public class SimpleAdapterFragment extends ListFragment
 		map.put("line2", "Subtitle Five");
 		items.add(map);
 	}
-	
+
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-	{
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
 		return inflater.inflate(R.layout.list_view, container, false);
 	}
-	
+
 	@Override
-	public void onActivityCreated(Bundle savedInstanceState)
-	{
+	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
-		ListAdapter adapter = new SimpleAdapter(getActivity(), items, android.R.layout.simple_list_item_2, keys, controlIds );
+		ListAdapter adapter = new SimpleAdapter(getActivity(), items,
+				android.R.layout.simple_list_item_2, keys, controlIds);
 		setListAdapter(adapter);
 	}
 }
